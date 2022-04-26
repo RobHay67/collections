@@ -2,15 +2,14 @@
 
 
 from comics.view.comics import view_comics_star_wars
-from comics.model.load import load_comics_file
+
+
+import streamlit as st
+
 
 
 
 def comics_star_wars(scope):
-
-
-	print ( 'have called comics_star_wars')
-
 
 	# load a list of comics if we have not already - maybe some scope for this
 
@@ -24,3 +23,6 @@ def comics_star_wars(scope):
 
 
 	view_comics_star_wars(scope)
+
+
+	

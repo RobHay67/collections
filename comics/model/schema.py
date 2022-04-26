@@ -6,12 +6,15 @@ import pandas as pd
 # Comic File Schema
 # --------------------------------------------------------------------------------------------------------------------------------------------------------------
 schema = {
-		'issue_no'			:{'dtype':'int'				, 'default':None},
+		'series'			:{'dtype':'str'				, 'default':'unknown series'},
+		'volume'			:{'dtype':'int'				, 'default':None},
+		'issue_no'			:{'dtype':'str'				, 'default':None},
 		'title'				:{'dtype':'str'				, 'default':'unknown comic title'},
 		'cover_date'		:{'dtype':'datetime64[ns]'	, 'default':pd.to_datetime('2000-01-01')},
 		'collected'			:{'dtype':'boolean'			, 'default':False},
 		'condition'			:{'dtype':'str'				, 'default':'unknown condition'},
 		'value'				:{'dtype':'float64'			, 'default':0.0},
+		'notes'				:{'dtype':'str'				, 'default':None},
 	}
 
 
