@@ -3,7 +3,8 @@
 from pages.view.welcome import view_project_welcome
 # from pages.view.comics import view_comics_star_wars
 # from comics.controller import comics_star_wars
-from pages.view.comics import render_star_wars_comics
+# from pages.view.comics import render_star_wars_comics
+from comics.controller import render_comics_page
 from pages.view.cards import view_cards_star_wars
 from pages.view.dvds import view_dr_who_dvds
 
@@ -17,7 +18,7 @@ def render_selected_page(scope):
 	
 	page_map = {
 						'home_page'			:view_project_welcome,
-						'sw_comics'			:render_star_wars_comics,
+						'comics'			:render_comics_page,
 						'sw_cards'			:view_cards_star_wars,
 						'dr_who'			:view_dr_who_dvds,
 

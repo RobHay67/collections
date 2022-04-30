@@ -38,6 +38,7 @@ render_selected_page(scope)				# Render the selected Page
 
 print('Rob - we are working on the comics page')
 print('need to filter dataframe to the selected series')
+print('load all the comic covers and storee them for later usage')
 
 
 
@@ -48,11 +49,13 @@ print('need to filter dataframe to the selected series')
 
 print( 'List of all keys in the st.session_state')
 if 'initial_load' in st.session_state:
-	ignore_params = ['comics_file']
+	ignore_params = ['comics_file', 'comic_df', 'comic_covers']
 	for key in sorted(st.session_state):
 		if key not in  ignore_params:
 			print ( key.ljust(40), scope[key])
 print ( '-'*100)
+
+
 
 
 

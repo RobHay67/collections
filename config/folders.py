@@ -22,15 +22,11 @@ def scope_file_locations(scope):
 
 
 
-
 def path_comic_cover(scope, series_name, volume_number, issue_number):
 
 	series_name = series_name.replace(' ', '_')
-	print(series_name)
-
 
 	file_name = series_name + '_Vol_' + str(volume_number) + '_' + str(issue_number) + '.jpg'
-
 
 	path_comic_image = pathlib.Path.home().joinpath( scope.folder_comic_covers, file_name )
 
@@ -39,31 +35,4 @@ def path_comic_cover(scope, series_name, volume_number, issue_number):
 
 
 
-
-# from PIL import Image
-# # image = Image.open('sunrise.jpg')
-
-# def path_comic_cover(scope, volume_number, issue_number):
-
-# 	# file_name = 'Star_Wars_Vol_' + str(volume_number) + '_' + str(issue_number) + '.webp'
-# 	file_name = 'Star_Wars_Vol_' + str(volume_number) + '_' + str(issue_number) + '.jpg'
-
-# 	path_comic_image = pathlib.Path.home().joinpath( scope.folder_comic_covers, file_name )
-
-# 	print(path_comic_image)
-
-# 	if os.path.exists( path_comic_image ):
-# 		print('-'*100)
-# 		print( 'Opening Image > ', issue_number)
-# 		# print(path_comic_image)
-
-# 		image = Image.open(path_comic_image).covert('RGB')
-# 		print(image)
-# 	# else:
-# 	# 	print('Path does not exist')
-
-
-
-
-# # Star_Wars_Vol_1_4.webp
 
