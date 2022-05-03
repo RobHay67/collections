@@ -1,11 +1,13 @@
 
 
 from config.streamlit import set_streamlit_page_config
-from config.folders import scope_file_locations
+from files.config import scope_file_locations
 from pages.config import scope_pages
 from comics.config import scope_comics
+from dvds.config import scope_dvds
 
-from pages.view.welcome import view_project_welcome
+from pages.home import render_home_page
+
 
 def set_scope(scope):
 	
@@ -18,10 +20,11 @@ def set_scope(scope):
 		scope_file_locations(scope)					# Required before we can attempt to load any data
 		
 		scope_comics(scope)
+		scope_dvds(scope)
 
 		scope_pages(scope)					# This contains all the page Specific settings
 
-		view_project_welcome(scope)				# Render the home page
+		render_home_page(scope)				# Render the home page
 
 	if scope.initial_load:					# This will only run one time after the initial load has occured
 		scope.initial_load = False			# Prevent session_state from re-running during its use

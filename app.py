@@ -20,40 +20,30 @@ pd.set_option('display.width', 1000)
 import streamlit as st
 
 from config.controller import set_scope
-from pages.view.sidebar import render_sidebar
+from pages.sidebar import render_sidebar
 from pages.controller import render_selected_page
 
 print ( '\033[94m' + 'Collections App Re-Rendering Now ' + '>'*50 + '\033[0m')
 
 
 scope = set_scope(st.session_state)
-render_sidebar(scope)						# Render the Sidebar
-render_selected_page(scope)				# Render the selected Page
-
-
-
-
-
-
-
-print('Rob - we are working on the comics page')
-print('need to filter dataframe to the selected series')
-print('load all the comic covers and storee them for later usage')
-
-
-
-
+render_sidebar(scope)
+render_selected_page(scope)
 
 
 
 
 print( 'List of all keys in the st.session_state')
 if 'initial_load' in st.session_state:
-	ignore_params = ['comics_file', 'comic_df', 'comic_covers']
+	ignore_params = ['comics_file', 'comic_df', 'comic_covers', 'dvds_file', 'dvd_df', 'dvd_covers']
 	for key in sorted(st.session_state):
 		if key not in  ignore_params:
 			print ( key.ljust(40), scope[key])
+		else:
+			print(key.ljust(40), 'Dataframe too large to print')
 print ( '-'*100)
+
+
 
 
 

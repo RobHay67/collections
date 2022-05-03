@@ -8,7 +8,7 @@ from comics.model.schema import csv_dates
 from comics.model.schema import csv_dtypes
 
 from comics.model.save import save_comics_file
-from config.folders import path_comic_cover
+from files.config import path_comic_cover
 
 
 def load_comics_file(scope):
