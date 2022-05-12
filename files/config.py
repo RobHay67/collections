@@ -38,9 +38,9 @@ def path_comic_cover(scope, series_name, volume_number, issue_number):
 
 
 
-def path_dvd_cover(scope, story):
+def path_dvd_cover(scope, idx):
 
-	file_name = str(story) + '.jpg'
+	file_name = str(idx) + '.jpg'
 
 	path_comic_image = pathlib.Path.home().joinpath( scope.folder_dvd_covers, file_name )
 

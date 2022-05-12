@@ -92,9 +92,6 @@ def render_comics_page(scope):
 		with col3: render_comic_details(scope, i+2)
 		with col4: render_comic_details(scope, i+3)
 
-
-
-
 	st.write(scope.comic_df)
 
 

@@ -12,6 +12,7 @@ schema = {
 		'title'		:{'dtype':'str'		, 'default':None},
 		'doctor'	:{'dtype':'str'		, 'default':None},
 		'image'		:{'dtype':'boolean'	, 'default':False},
+		'collected'	:{'dtype':'boolean'	, 'default':False},
 		'url'		:{'dtype':'str'		, 'default':None},
 	}
 
