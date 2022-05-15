@@ -1,12 +1,7 @@
 
-
 import streamlit as st
 
 from dvds.model.load import load_dvd_covers_for_series
-# from dvds.config import scope_dvd_season_list
-
-
-# index,series,season,story,title,doctor,image,url
 
 
 # ---------------------------------------------------
@@ -41,6 +36,7 @@ def dvd_selector_season(scope):
 
 	widget_key = 'widget_dvd_season'
 	previous_selection = scope.dvd_selected_season
+
 	pos_for_previous = scope.dvd_season_list.index(previous_selection)	
 
 	st.selectbox(
@@ -63,11 +59,15 @@ def set_dvd_season(scope, widget_key):
 def scope_dvd_season_list(scope):
 
 	series = scope.dvd_selected_series
-	dvd_df = scope.dvds_file[scope.dvds_file['series'] == series]
-	scope.dvd_season_list = list(dvd_df['season'].unique())
 
-	# Add special selector for Doctor Who
-	
+	# filter dvds to the selected series
+	dvd_df = scope.dvds_file[scope.dvds_file['series'] == series]
+
+	# list of unique seasons in the dvd series
+	season_list = list(dvd_df['season'].unique())    
+	scope.dvd_season_list = season_list
+
+	# Add special selector for Doctor Who	
 	default_doctor = 'All Doctors'
 	scope.dvd_doctor_list = []
 	
@@ -97,10 +97,24 @@ def dvd_selector_doctor(scope):
 
 def set_dvd_doctor(scope, widget_key):
 	selected_doctor = (scope[widget_key])
-	print(selected_doctor)
+	# print(selected_doctor)
 	scope.dvd_selected_doctor = selected_doctor
 	refresh_dvd_covers(scope)
 
+
+# ---------------------------------------------------
+# DVD - Missing Episodes
+# ---------------------------------------------------
+def dvd_selector_missing_episodes(scope):
+
+
+	missing_episodes = st.button(
+				'Missing Episodes Only',
+				)
+
+	scope.dvd_show_only_missing_eps = True if missing_episodes else False
+
+	refresh_dvd_covers(scope)
 
 
 # ---------------------------------------------------
@@ -109,22 +123,30 @@ def set_dvd_doctor(scope, widget_key):
 
 def refresh_dvd_covers(scope):
 
-	dvd_df = scope.dvds_file
+	dvd_df = scope.dvds_file.copy()
 
 	# Filter to series
 	dvd_df = dvd_df[dvd_df['series'] == scope.dvd_selected_series]
 
-	# Special filter for Doctor Who
-	if scope.dvd_selected_doctor == 'All Doctors': # this is the default
-		dvd_df = dvd_df[dvd_df['season'] == scope.dvd_selected_season]
-	else:
-		# select by doctor
-		dvd_df = dvd_df[dvd_df['doctor'] == scope.dvd_selected_doctor]
 
+	if scope.dvd_show_only_missing_eps == True:
+		# Show only collected Episodes
+		dvd_df = dvd_df[dvd_df['collected'] == False]
+	else:
+		# Filter to the Selected Season unles we are only looking at missing episodes
+		if scope.dvd_selected_doctor == 'All Doctors':
+			dvd_df = dvd_df[dvd_df['season'] == scope.dvd_selected_season]
+		
+		if scope.dvd_selected_doctor != 'All Doctors':
+			# Special Selector for Doctor Who -  Select by doctor instead of Season
+			dvd_df = dvd_df[dvd_df['doctor'] == scope.dvd_selected_doctor]
+
+	print(len(dvd_df))
 	scope.dvd_df = dvd_df
-	scope.dvd_df.sort_values(by='story', inplace=True)
+	scope.dvd_df.sort_values(by=['season','story'], inplace=True)
 	
 	scope.dvd_index_list = list(scope.dvd_df.index.values)
+	scope.dvd_seasons_list = list(scope.dvd_df['season'])
 	scope.dvd_story_list = list(scope.dvd_df['story'])
 	scope.dvd_title_list = list(scope.dvd_df['title'])
 	scope.dvd_url_list = list(scope.dvd_df['url'])

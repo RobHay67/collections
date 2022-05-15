@@ -16,15 +16,14 @@ def scope_dvds(scope):
 
 	scope.dvd_series_list = list(scope.dvds_file['series'].unique())
 	scope.dvd_selected_series = 'Doctor Who'
-	scope.dvd_selected_season = '1'
+	scope.dvd_selected_season = 1
 	
 	scope_dvd_season_list(scope)
 
 	scope.dvd_selected_doctor = 'All Doctors'
-
+	scope.dvd_show_only_missing_eps = False
 	scope.dvd_df = {}
 	scope.dvd_covers = {}
-
 	load_dvd_covers_for_series(scope)
 	refresh_dvd_covers(scope)
 

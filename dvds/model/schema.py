@@ -7,7 +7,7 @@ import pandas as pd
 schema = {
 		'index'		:{'dtype':'int'		, 'default':None},
 		'series'	:{'dtype':'str'		, 'default':None},
-		'season'	:{'dtype':'str'		, 'default':None},
+		'season'	:{'dtype':'int'		, 'default':None},
 		'story'		:{'dtype':'str'		, 'default':None},
 		'title'		:{'dtype':'str'		, 'default':None},
 		'doctor'	:{'dtype':'str'		, 'default':None},

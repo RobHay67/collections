@@ -4,7 +4,7 @@ from dvds.model.save import save_dvds_file
 from dvds.model.selectors import dvd_selector_series
 from dvds.model.selectors import dvd_selector_season
 from dvds.model.selectors import dvd_selector_doctor
-
+from dvds.model.selectors import dvd_selector_missing_episodes
 
 def render_dvds_page(scope):
 	col1,col2=st.columns([8,2])
@@ -56,7 +56,7 @@ def render_selectors(scope):
 		st.write('Available to collect = ', available_to_collect)
 		st.write('Number Collected = ', no_collected)
 
-
+		dvd_selector_missing_episodes(scope)
 
 
 def render_dvd_details(scope, no_of_dvds, i):
@@ -64,6 +64,7 @@ def render_dvd_details(scope, no_of_dvds, i):
 	if i < no_of_dvds:
 		
 		index_no = scope.dvd_index_list[i]
+		season_no = str(scope.dvd_seasons_list[i])
 		story_no = str(scope.dvd_story_list[i])
 		title = str(scope.dvd_title_list[i])
 		url = scope.dvd_url_list[i]
@@ -71,10 +72,10 @@ def render_dvd_details(scope, no_of_dvds, i):
 
 		if title == 'nan': title = 'Missing Title for this Issue'
 
-		# print(index_no)
-
-		# print(scope.dvd_covers.keys())
 		widget_collected(scope, index_no, collected)
+
+		if scope.dvd_show_only_missing_eps:
+			st.caption('Season ' + season_no)
 
 		# Render the DVD Cover - if we have one
 		if index_no in scope.dvd_covers.keys():
@@ -82,6 +83,7 @@ def render_dvd_details(scope, no_of_dvds, i):
 			st.image(dvd_cover, caption=title)
 		
 		st.write(title)
+
 		st.caption('Story ' + story_no + ' - index ' + str(index_no))
 		# st.write(url)
 
