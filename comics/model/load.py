@@ -7,41 +7,41 @@ from comics.model.schema import schema
 from comics.model.schema import csv_dates
 from comics.model.schema import csv_dtypes
 
-from comics.model.save import save_comics_file
+from comics.model.save import save_comic_file
 from files.config import path_comic_cover
 
 
-def load_comics_file(scope):
+def load_comic_file(scope):
 
-	if os.path.exists( scope.path_comics_file ):
+	if os.path.exists( scope.comic_file_path ):
 
-		comics_file = pd.read_csv(  scope.path_comics_file, 
+		comic_file = pd.read_csv(  scope.comic_file_path, 
 									dtype=csv_dtypes(schema),
 									parse_dates=csv_dates(schema),
 									)
 
-		comics_file['cover_date'] = pd.to_datetime( comics_file['cover_date'].dt.date  )
+		comic_file['cover_date'] = pd.to_datetime( comic_file['cover_date'].dt.date  )
 
-		scope.comics_file = comics_file
+		scope.comic_file = comic_file
 	else: 
 		dataframe_columns = []
 		for column_name in schema: 
 			dataframe_columns.append(column_name)
 			
-		comics_file = pd.DataFrame(columns=dataframe_columns)
+		comic_file = pd.DataFrame(columns=dataframe_columns)
 		
-		scope.comics_file = comics_file
+		scope.comic_file = comic_file
 		
-		save_comics_file(scope)
+		save_comic_file(scope)
 
 
 def load_comic_covers(scope):
 
 	print('load all the comic covers and storee them for later usage')
 
-	series = scope.comics_selected_series
+	series = scope.comic_selected_series
 
-	volume = scope.comics_selected_volume
+	volume = scope.comic_selected_volume
 	issue_list = list(scope.comic_df['issue_no'])
 
 	comic_covers = {}
