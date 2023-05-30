@@ -1,12 +1,14 @@
 # ------------------------------------------------- Application
-# activate pipend	- pipenv shell
+# activate pipenv	- pipenv shell
 # run application	- streamlit run home.py
+# robhay67-collections-home-3ou9ku
 # ------------------------------------------------- GitHub
 # git push -u origin <branch>
 # git branch -d <branch>   will delete local branch
 # ------------------------------------------------- Package Management
 # pip3 install --user --upgrade django
 # ------------------------------------------------- Pipenv
+# https://realpython.com/pipenv-guide/
 # cd into project folder 
 # activate Pipenv 	- pipenv shell
 # deactivate env	- exit
@@ -16,7 +18,7 @@
 # specify ver   	- pipenv install mplfinance==0.12.7a5
 # latest ver		- pipenv update pandas
 # delete pkg		- pipenv uninstall django
-# -------------------------------------------------
+# ------------------------------------------------- VSC
 # configure vscode to work with pipenv
 # https://benjaminpack.com/blog/vs-code-python-pipenv/
 
