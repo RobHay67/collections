@@ -7,8 +7,12 @@ from comics.views.button_save import button_save_comics
 def page_header_comics(scope):
 	logging.partial(f"page_header_comics")
 
-	no_collected = scope.comics_page_df['collected'].sum()
-	available_to_collect = len(scope.comics_page_df)
+	if len(scope.comics_page_df) > 0:
+		no_collected = scope.comics_page_df['collected'].sum()
+		available_to_collect = len(scope.comics_page_df)
+	else:
+		no_collected = 0
+		available_to_collect = 0
 	number_missing = available_to_collect - no_collected
 
 	col1,col2,col3=st.columns([5,3,3])
