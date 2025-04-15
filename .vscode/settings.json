@@ -3,11 +3,14 @@
         "**/.git": true,
         "**/.svn": true,
         "**/.hg": true,
+		"**/.venv": true,
         "**/CVS": true,
         "**/.DS_Store": true,
         "**/*.pyc": true,
         "**/__pycache__": true
     },
-    "python.pythonPath": "/Users/robhay/.local/share/virtualenvs/collections-1e9GKt6u/bin/python"
-}
-
+    "python.pythonPath": "/Users/robhay/Developer/collections/.venv/bin/python",
+	"python.terminal.activateEnvironment": true,
+	"python.defaultInterpreterPath": "/Users/robhay/Developer/collections/.venv",
+	
+	}
