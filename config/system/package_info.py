@@ -2,14 +2,14 @@ import logging
 import sys
 import streamlit
 import pandas
-import numpy
-import pytz
+# import numpy
+# import pytz
 # import watchdog
 
 
 
-def print_package_info():
-	logging.core("print_package_info")
+def terminal_out_package_info():
+	logging.core("terminal_out_package_info")
 	print ( '\033[91m')
 	print('='*100)
 	print ( 'EXPECTED Python Verion  = 3.13.0')
@@ -27,12 +27,3 @@ def print_package_info():
 	print ( '\33[0m')
 	for i in range(5):print('')
 
-
-# [packages]
-# pytz = "==2023.3"
-# watchdog = "*"
-
-# [dev-packages]
-
-# [requires]
-# python_version = "3.8"

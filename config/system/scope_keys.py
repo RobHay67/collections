@@ -2,11 +2,8 @@ import logging
 import streamlit as st
 
 
-# ignore_keys = ['comic_file', 'comic_df', 'comic_covers', 'dvd_file', 'dvd_df', 'dvd_covers']
-
-
-def print_scope_keys(location=' unspecified location',hide_widgets=True):
-	logging.debug("print_scope_keys")
+def terminal_out_scope_keys(location=' unspecified location',hide_widgets=True):
+	logging.debug("terminal_out_scope_keys")
 	print('\033[92m')
 	print('='*66)
 	print('Called From    > ', location)

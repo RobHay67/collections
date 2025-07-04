@@ -10,11 +10,14 @@ from dvds.views.selectors.missing_eps import button_missing_dvd_eps_only
 def page_header_dvds(scope):
 	logging.partial(f"render_dvd_header")
 	
-	no_collected = scope.dvds_page_df['collected'].sum()
-	available_to_collect = len(scope.dvds_page_df)
-	number_missing = available_to_collect - no_collected
+	# The Numbers
+	total_to_collect = len(scope.dvds_page_df)
+	available_to_collect = scope.dvds_page_df['available'].sum()
+	missing_episodes = total_to_collect - available_to_collect
+	collected = scope.dvds_page_df['collected'].sum()
+	still_to_collect = available_to_collect - collected
 	
-	col1,col2,col3=st.columns([5,3,3])
+	col1,col2,col3,col4=st.columns([5,1.5,1.5,3])
 	with col1: 
 		selectbox_series(scope)
 	
@@ -24,9 +27,12 @@ def page_header_dvds(scope):
 			if scope.dvds_selected_series == 'Doctor Who':
 				selectbox_which_doctor(scope)
 	with col2:
-		st.write('Available = ', available_to_collect)
-		st.write('Collected = ', no_collected)
-		st.write('Missing... = ', number_missing)
+		st.caption('Total Episodes = ' + str(total_to_collect))
+		st.caption('Missing Episodes = ' + str(missing_episodes))
+		st.write('Able to Collect = ', available_to_collect)
 	with col3:
+		st.write('Collected so far = ', collected)
+		st.write('To Collect... = ', still_to_collect)
+	with col4:
 		button_save_dvds(scope)
 		button_missing_dvd_eps_only(scope)

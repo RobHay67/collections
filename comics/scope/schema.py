@@ -16,6 +16,7 @@ schema = {
 		'condition'			:{'dtype':'str'				, 'default':'unknown condition'},
 		'value'				:{'dtype':'float64'			, 'default':0.0},
 		'notes'				:{'dtype':'str'				, 'default':None},
+		
 	}
 
 

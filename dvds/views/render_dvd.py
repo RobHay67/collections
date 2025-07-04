@@ -9,7 +9,7 @@ def render_dvd(scope, dvd_index_list, count):
 
 	if count < len(dvd_index_list):
 		index_no = dvd_index_list[count]
-		
+		logging.debug(f"{index_no=}")
 		season_no = str(scope.dvds_page_df._get_value(index_no, 'season'))
 		story_no = str(scope.dvds_page_df._get_value(index_no, 'story'))
 		title = str(scope.dvds_page_df._get_value(index_no, 'title'))

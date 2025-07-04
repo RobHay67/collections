@@ -14,6 +14,8 @@ schema = {
 		'collected'	:{'dtype':'boolean'	, 'default':False},
 		'url'		:{'dtype':'str'		, 'default':None},
 		'watched'	:{'dtype':'boolean'	, 'default':False},
+		'cover'		:{'dtype':'str'		, 'default':None},
+		'available'	:{'dtype':'boolean'	, 'default':False},
 	}
 
 

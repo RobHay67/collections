@@ -1,362 +1,358 @@
-index,series,season,story,title,doctor,image,collected,url,watched
-1,Doctor Who,1,1,An Unearthly Child,William Hartnell,TRUE,TRUE,http://en.wikipedia.org/wiki/An_Unearthly_Child,TRUE
-2,Doctor Who,1,2,The Daleks,William Hartnell,TRUE,TRUE,http://en.wikipedia.org/wiki/The_Daleks,FALSE
-3,Doctor Who,1,3,The Edge of Destruction,William Hartnell,TRUE,TRUE,http://en.wikipedia.org/wiki/The_Edge_of_Destruction,FALSE
-4,Doctor Who,1,4,Marco Polo,William Hartnell,TRUE,FALSE,http://en.wikipedia.org/wiki/Marco_Polo_(Doctor_Who),FALSE
-5,Doctor Who,1,5,The Keys of Marinus,William Hartnell,TRUE,TRUE,http://en.wikipedia.org/wiki/The_Keys_of_Marinus,FALSE
-6,Doctor Who,1,6,The Aztecs,William Hartnell,TRUE,TRUE,http://en.wikipedia.org/wiki/The_Aztecs_(Doctor_Who),FALSE
-7,Doctor Who,1,7,The Sensorites,William Hartnell,TRUE,TRUE,http://en.wikipedia.org/wiki/The_Sensorites,FALSE
-8,Doctor Who,1,8,The Reign of Terror,William Hartnell,TRUE,TRUE,http://en.wikipedia.org/wiki/The_Reign_of_Terror_(Doctor_Who),FALSE
-9,Doctor Who,2,9,Planet of Giants,William Hartnell,TRUE,TRUE,http://en.wikipedia.org/wiki/Planet_of_Giants,FALSE
-10,Doctor Who,2,10,The Dalek Invasion of Earth,William Hartnell,TRUE,TRUE,http://en.wikipedia.org/wiki/The_Dalek_Invasion_of_Earth,FALSE
-11,Doctor Who,2,11,The Rescue,William Hartnell,TRUE,TRUE,http://en.wikipedia.org/wiki/The_Rescue_(Doctor_Who),FALSE
-12,Doctor Who,2,12,The Romans,William Hartnell,TRUE,TRUE,http://en.wikipedia.org/wiki/The_Romans_(Doctor_Who),FALSE
-13,Doctor Who,2,13,The Web Planet,William Hartnell,TRUE,TRUE,http://en.wikipedia.org/wiki/The_Web_Planet,FALSE
-14,Doctor Who,2,14,The Crusade,William Hartnell,TRUE,FALSE,http://en.wikipedia.org/wiki/The_Crusade_(Doctor_Who),FALSE
-15,Doctor Who,2,15,The Space Museum,William Hartnell,TRUE,TRUE,http://en.wikipedia.org/wiki/The_Space_Museum,FALSE
-16,Doctor Who,2,16,The Chase,William Hartnell,TRUE,TRUE,http://en.wikipedia.org/wiki/The_Chase_(Doctor_Who),FALSE
-17,Doctor Who,2,17,The Time Meddler,William Hartnell,TRUE,TRUE,http://en.wikipedia.org/wiki/The_Time_Meddler,FALSE
-18,Doctor Who,3,18,Galaxy 4,William Hartnell,TRUE,TRUE,http://en.wikipedia.org/wiki/Galaxy_4,FALSE
-19,Doctor Who,3,19,Mission to the Unknown aka Dalek Cutaway,William Hartnell,TRUE,FALSE,http://en.wikipedia.org/wiki/Mission_to_the_Unknown,FALSE
-20,Doctor Who,3,20,The Myth Makers,William Hartnell,TRUE,FALSE,http://en.wikipedia.org/wiki/The_Myth_Makers,FALSE
-21,Doctor Who,3,21,The Daleks' Master Plan,William Hartnell,TRUE,FALSE,http://en.wikipedia.org/wiki/The_Daleks%27_Master_Plan,FALSE
-22,Doctor Who,3,22,The Massacre of St Bartholomew's Eve aka The Massacre,William Hartnell,TRUE,FALSE,http://en.wikipedia.org/wiki/The_Massacre_of_St_Bartholomew%27s_Eve,FALSE
-23,Doctor Who,3,23,The Ark,William Hartnell,TRUE,TRUE,http://en.wikipedia.org/wiki/The_Ark_(Doctor_Who),FALSE
-24,Doctor Who,3,24,The Celestial Toymaker,William Hartnell,TRUE,TRUE,http://en.wikipedia.org/wiki/The_Celestial_Toymaker,FALSE
-25,Doctor Who,3,25,The Gunfighters,William Hartnell,TRUE,TRUE,http://en.wikipedia.org/wiki/The_Gunfighters,FALSE
-26,Doctor Who,3,26,The Savages,William Hartnell,TRUE,FALSE,https://en.wikipedia.org/wiki/The_Savages_(Doctor_Who),FALSE
-27,Doctor Who,3,27,The War Machines,William Hartnell,TRUE,TRUE,http://en.wikipedia.org/wiki/The_War_Machines,FALSE
-28,Doctor Who,4,28,The Smugglers,William Hartnell,TRUE,FALSE,http://en.wikipedia.org/wiki/The_Smugglers,FALSE
-29,Doctor Who,4,29,The Tenth Planet,William Hartnell,TRUE,TRUE,http://en.wikipedia.org/wiki/The_Tenth_Planet,TRUE
-30,Doctor Who,4,30,The Power of the Daleks,Patrick Troughton,TRUE,TRUE,http://en.wikipedia.org/wiki/The_Power_of_the_Daleks,FALSE
-31,Doctor Who,4,31,The Highlanders,Patrick Troughton,TRUE,FALSE,http://en.wikipedia.org/wiki/The_Highlanders_(Doctor_Who),FALSE
-32,Doctor Who,4,32,The Underwater Menace,Patrick Troughton,TRUE,TRUE,http://en.wikipedia.org/wiki/The_Underwater_Menace,FALSE
-33,Doctor Who,4,33,The Moonbase,Patrick Troughton,TRUE,TRUE,http://en.wikipedia.org/wiki/The_Moonbase,FALSE
-34,Doctor Who,4,34,The Macra Terror,Patrick Troughton,TRUE,TRUE,http://en.wikipedia.org/wiki/The_Macra_Terror,FALSE
-35,Doctor Who,4,35,The Faceless Ones,Patrick Troughton,TRUE,FALSE,http://en.wikipedia.org/wiki/The_Faceless_Ones,FALSE
-36,Doctor Who,4,36,The Evil of the Daleks,Patrick Troughton,TRUE,TRUE,http://en.wikipedia.org/wiki/The_Evil_of_the_Daleks,FALSE
-37,Doctor Who,5,37,The Tomb of the Cybermen,Patrick Troughton,TRUE,TRUE,http://en.wikipedia.org/wiki/The_Tomb_of_the_Cybermen,FALSE
-38,Doctor Who,5,38,The Abominable Snowmen,Patrick Troughton,TRUE,FALSE,http://en.wikipedia.org/wiki/The_Abominable_Snowmen,FALSE
-39,Doctor Who,5,39,The Ice Warriors,Patrick Troughton,TRUE,TRUE,http://en.wikipedia.org/wiki/The_Ice_Warriors,FALSE
-40,Doctor Who,5,40,The Enemy of the World,Patrick Troughton,TRUE,TRUE,http://en.wikipedia.org/wiki/The_Enemy_of_the_World,FALSE
-41,Doctor Who,5,41,The Web of Fear,Patrick Troughton,TRUE,TRUE,http://en.wikipedia.org/wiki/The_Web_of_Fear,FALSE
-42,Doctor Who,5,42,Fury from the Deep,Patrick Troughton,TRUE,FALSE,http://en.wikipedia.org/wiki/Fury_from_the_Deep,FALSE
-43,Doctor Who,5,43,The Wheel in Space,Patrick Troughton,TRUE,FALSE,http://en.wikipedia.org/wiki/The_Wheel_in_Space,FALSE
-44,Doctor Who,6,44,The Dominators,Patrick Troughton,TRUE,TRUE,http://en.wikipedia.org/wiki/The_Dominators,FALSE
-45,Doctor Who,6,45,The Mind Robber,Patrick Troughton,TRUE,TRUE,http://en.wikipedia.org/wiki/The_Mind_Robber,FALSE
-46,Doctor Who,6,46,The Invasion,Patrick Troughton,TRUE,TRUE,http://en.wikipedia.org/wiki/The_Invasion_(Doctor_Who),FALSE
-47,Doctor Who,6,47,The Krotons,Patrick Troughton,TRUE,TRUE,http://en.wikipedia.org/wiki/The_Krotons,FALSE
-48,Doctor Who,6,48,The Seeds of Death,Patrick Troughton,TRUE,TRUE,http://en.wikipedia.org/wiki/The_Seeds_of_Death,FALSE
-49,Doctor Who,6,49,The Space Pirates,Patrick Troughton,TRUE,FALSE,http://en.wikipedia.org/wiki/The_Space_Pirates,FALSE
-50,Doctor Who,6,50,The War Games,Patrick Troughton,TRUE,TRUE,http://en.wikipedia.org/wiki/The_War_Games,FALSE
-51,Doctor Who,7,51,Spearhead from Space,Jon Pertwee,TRUE,TRUE,http://en.wikipedia.org/wiki/Spearhead_from_Space,FALSE
-52,Doctor Who,7,52,Doctor Who and the Silurians,Jon Pertwee,TRUE,FALSE,http://en.wikipedia.org/wiki/Doctor_Who_and_the_Silurians,FALSE
-53,Doctor Who,7,53,The Ambassadors of Death,Jon Pertwee,TRUE,TRUE,http://en.wikipedia.org/wiki/The_Ambassadors_of_Death,FALSE
-54,Doctor Who,7,54,Inferno,Jon Pertwee,TRUE,TRUE,http://en.wikipedia.org/wiki/Inferno_(Doctor_Who),FALSE
-55,Doctor Who,7,55,Terror of the Autons,Jon Pertwee,TRUE,TRUE,http://en.wikipedia.org/wiki/Terror_of_the_Autons,FALSE
-56,Doctor Who,8,56,The Mind of Evil,Jon Pertwee,TRUE,TRUE,http://en.wikipedia.org/wiki/The_Mind_of_Evil,FALSE
-57,Doctor Who,8,57,The Claws of Axos,Jon Pertwee,TRUE,TRUE,http://en.wikipedia.org/wiki/The_Claws_of_Axos,FALSE
-58,Doctor Who,8,58,Colony in Space,Jon Pertwee,TRUE,TRUE,http://en.wikipedia.org/wiki/Colony_in_Space,FALSE
-59,Doctor Who,8,59,The Daemons,Jon Pertwee,TRUE,TRUE,http://en.wikipedia.org/wiki/The_D%C3%A6mons,FALSE
-60,Doctor Who,9,60,Day of the Daleks,Jon Pertwee,TRUE,TRUE,http://en.wikipedia.org/wiki/Day_of_the_Daleks,FALSE
-61,Doctor Who,9,61,The Curse of Peladon,Jon Pertwee,TRUE,TRUE,http://en.wikipedia.org/wiki/The_Curse_of_Peladon,FALSE
-62,Doctor Who,9,62,The Sea Devils,Jon Pertwee,TRUE,FALSE,http://en.wikipedia.org/wiki/The_Sea_Devils,FALSE
-63,Doctor Who,9,63,The Mutants,Jon Pertwee,TRUE,TRUE,http://en.wikipedia.org/wiki/The_Mutants,FALSE
-64,Doctor Who,9,64,The Time Monster,Jon Pertwee,TRUE,TRUE,http://en.wikipedia.org/wiki/The_Time_Monster,FALSE
-65,Doctor Who,10,65,The Three Doctors,Jon Pertwee,TRUE,TRUE,https://en.wikipedia.org/wiki/The_Three_Doctors_(Doctor_Who),FALSE
-66,Doctor Who,10,66,Carnival of Monsters,Jon Pertwee,TRUE,TRUE,http://en.wikipedia.org/wiki/Carnival_of_Monsters,FALSE
-67,Doctor Who,10,67,Frontier in Space,Jon Pertwee,TRUE,TRUE,http://en.wikipedia.org/wiki/Frontier_in_Space,FALSE
-68,Doctor Who,10,68,Planet of the Daleks,Jon Pertwee,TRUE,TRUE,http://en.wikipedia.org/wiki/Planet_of_the_Daleks,FALSE
-69,Doctor Who,10,69,The Green Death,Jon Pertwee,TRUE,TRUE,http://en.wikipedia.org/wiki/The_Green_Death,FALSE
-70,Doctor Who,11,70,The Time Warrior,Jon Pertwee,TRUE,TRUE,http://en.wikipedia.org/wiki/The_Time_Warrior,FALSE
-71,Doctor Who,11,71,Invasion of the Dinosaurs,Jon Pertwee,TRUE,TRUE,https://en.wikipedia.org/wiki/Invasion_of_the_Dinosaurs,FALSE
-72,Doctor Who,11,72,Death to the Daleks,Jon Pertwee,TRUE,TRUE,http://en.wikipedia.org/wiki/Death_to_the_Daleks,FALSE
-73,Doctor Who,11,73,The Monster of Peladon,Jon Pertwee,TRUE,TRUE,http://en.wikipedia.org/wiki/The_Monster_of_Peladon,FALSE
-74,Doctor Who,11,74,Planet of the Spiders,Jon Pertwee,TRUE,TRUE,http://en.wikipedia.org/wiki/Planet_of_the_Spiders,FALSE
-75,Doctor Who,12,75,Robot,Tom Baker,TRUE,TRUE,http://en.wikipedia.org/wiki/Robot_(Doctor_Who),FALSE
-76,Doctor Who,12,76,The Ark in Space,Tom Baker,TRUE,TRUE,http://en.wikipedia.org/wiki/The_Ark_in_Space,FALSE
-77,Doctor Who,12,77,The Sontaran Experiment,Tom Baker,TRUE,TRUE,http://en.wikipedia.org/wiki/The_Sontaran_Experiment,FALSE
-78,Doctor Who,12,78,Genesis of the Daleks,Tom Baker,TRUE,TRUE,http://en.wikipedia.org/wiki/Genesis_of_the_Daleks,FALSE
-79,Doctor Who,12,79,Revenge of the Cybermen,Tom Baker,TRUE,TRUE,http://en.wikipedia.org/wiki/Revenge_of_the_Cybermen,FALSE
-80,Doctor Who,13,80,Terror of the Zygons,Tom Baker,TRUE,TRUE,http://en.wikipedia.org/wiki/Terror_of_the_Zygons,FALSE
-81,Doctor Who,13,81,Planet of Evil,Tom Baker,TRUE,TRUE,http://en.wikipedia.org/wiki/Planet_of_Evil,FALSE
-82,Doctor Who,13,82,Pyramids of Mars,Tom Baker,TRUE,TRUE,http://en.wikipedia.org/wiki/Pyramids_of_Mars,FALSE
-83,Doctor Who,13,83,The Android Invasion,Tom Baker,TRUE,TRUE,http://en.wikipedia.org/wiki/The_Android_Invasion,FALSE
-84,Doctor Who,13,84,The Brain of Morbius,Tom Baker,TRUE,TRUE,http://en.wikipedia.org/wiki/The_Brain_of_Morbius,FALSE
-85,Doctor Who,13,85,The Seeds of Doom,Tom Baker,TRUE,TRUE,http://en.wikipedia.org/wiki/The_Seeds_of_Doom,FALSE
-86,Doctor Who,14,86,The Masque of Mandragora,Tom Baker,TRUE,TRUE,http://en.wikipedia.org/wiki/The_Masque_of_Mandragora,FALSE
-87,Doctor Who,14,87,The Hand of Fear,Tom Baker,TRUE,TRUE,http://en.wikipedia.org/wiki/The_Hand_of_Fear,FALSE
-88,Doctor Who,14,88,The Deadly Assassin,Tom Baker,TRUE,TRUE,http://en.wikipedia.org/wiki/The_Deadly_Assassin,FALSE
-89,Doctor Who,14,89,The Face of Evil,Tom Baker,TRUE,TRUE,http://en.wikipedia.org/wiki/The_Face_of_Evil,FALSE
-90,Doctor Who,14,90,The Robots of Death,Tom Baker,TRUE,TRUE,http://en.wikipedia.org/wiki/The_Robots_of_Death,FALSE
-91,Doctor Who,14,91,The Talons of Weng-Chiang,Tom Baker,TRUE,TRUE,http://en.wikipedia.org/wiki/The_Talons_of_Weng-Chiang,FALSE
-92,Doctor Who,15,92,Horror of Fang Rock,Tom Baker,TRUE,TRUE,http://en.wikipedia.org/wiki/Horror_of_Fang_Rock,FALSE
-93,Doctor Who,15,93,The Invisible Enemy,Tom Baker,TRUE,TRUE,http://en.wikipedia.org/wiki/The_Invisible_Enemy_(Doctor_Who),FALSE
-94,Doctor Who,15,94,Image of the Fendahl,Tom Baker,TRUE,TRUE,http://en.wikipedia.org/wiki/Image_of_the_Fendahl,FALSE
-95,Doctor Who,15,95,The Sun Makers,Tom Baker,TRUE,TRUE,http://en.wikipedia.org/wiki/The_Sun_Makers,FALSE
-96,Doctor Who,15,96,Underworld,Tom Baker,TRUE,TRUE,http://en.wikipedia.org/wiki/Underworld_(Doctor_Who),FALSE
-97,Doctor Who,15,97,The Invasion of Time,Tom Baker,TRUE,TRUE,http://en.wikipedia.org/wiki/The_Invasion_of_Time,FALSE
-98,Doctor Who,16,98,The Ribos Operation,Tom Baker,TRUE,FALSE,http://en.wikipedia.org/wiki/The_Ribos_Operation,FALSE
-99,Doctor Who,16,99,The Pirate Planet,Tom Baker,TRUE,FALSE,http://en.wikipedia.org/wiki/The_Pirate_Planet,FALSE
-100,Doctor Who,16,100,The Stones of Blood,Tom Baker,TRUE,FALSE,http://en.wikipedia.org/wiki/The_Stones_of_Blood,FALSE
-101,Doctor Who,16,101,The Androids of Tara,Tom Baker,TRUE,FALSE,http://en.wikipedia.org/wiki/The_Androids_of_Tara,FALSE
-102,Doctor Who,16,102,The Power of Kroll,Tom Baker,TRUE,FALSE,http://en.wikipedia.org/wiki/The_Power_of_Kroll,FALSE
-103,Doctor Who,16,103,The Armageddon Factor,Tom Baker,TRUE,FALSE,http://en.wikipedia.org/wiki/The_Armageddon_Factor,FALSE
-104,Doctor Who,17,104,Destiny of the Daleks,Tom Baker,TRUE,TRUE,http://en.wikipedia.org/wiki/Destiny_of_the_Daleks,FALSE
-105,Doctor Who,17,105,City of Death,Tom Baker,TRUE,TRUE,http://en.wikipedia.org/wiki/City_of_Death,FALSE
-106,Doctor Who,17,106,The Creature from the Pit,Tom Baker,TRUE,TRUE,http://en.wikipedia.org/wiki/The_Creature_from_the_Pit,FALSE
-107,Doctor Who,17,107,Nightmare of Eden,Tom Baker,TRUE,TRUE,http://en.wikipedia.org/wiki/Nightmare_of_Eden,FALSE
-108,Doctor Who,17,108,The Horns of Nimon,Tom Baker,TRUE,TRUE,http://en.wikipedia.org/wiki/The_Horns_of_Nimon,FALSE
-109,Doctor Who,17,108a,Shada,Tom Baker,TRUE,TRUE,https://en.wikipedia.org/wiki/Shada_(Doctor_Who),FALSE
-110,Doctor Who,18,109,The Leisure Hive,Tom Baker,TRUE,FALSE,http://en.wikipedia.org/wiki/The_Leisure_Hive,FALSE
-111,Doctor Who,18,110,Meglos,Tom Baker,TRUE,TRUE,http://en.wikipedia.org/wiki/Meglos,FALSE
-112,Doctor Who,18,111,Full Circle,Tom Baker,TRUE,FALSE,http://en.wikipedia.org/wiki/Full_Circle_(Doctor_Who),FALSE
-113,Doctor Who,18,112,State of Decay,Tom Baker,TRUE,FALSE,http://en.wikipedia.org/wiki/State_of_Decay,FALSE
-114,Doctor Who,18,113,Warriors' Gate,Tom Baker,TRUE,FALSE,http://en.wikipedia.org/wiki/Warriors%27_Gate,FALSE
-115,Doctor Who,18,114,The Keeper of Traken,Tom Baker,TRUE,TRUE,http://en.wikipedia.org/wiki/The_Keeper_of_Traken,FALSE
-116,Doctor Who,18,115,Logopolis,Tom Baker,TRUE,TRUE,http://en.wikipedia.org/wiki/Logopolis,FALSE
-117,Doctor Who,19,116,Castrovalva,Peter Davison,TRUE,TRUE,http://en.wikipedia.org/wiki/Castrovalva_(Doctor_Who),FALSE
-118,Doctor Who,19,117,Four to Doomsday,Peter Davison,TRUE,TRUE,http://en.wikipedia.org/wiki/Four_to_Doomsday,FALSE
-119,Doctor Who,19,118,Kinda,Peter Davison,TRUE,TRUE,http://en.wikipedia.org/wiki/Kinda_(Doctor_Who),FALSE
-120,Doctor Who,19,119,The Visitation,Peter Davison,TRUE,TRUE,http://en.wikipedia.org/wiki/The_Visitation_(Doctor_Who),FALSE
-121,Doctor Who,19,120,Black Orchid,Peter Davison,TRUE,TRUE,http://en.wikipedia.org/wiki/Black_Orchid_(Doctor_Who),FALSE
-122,Doctor Who,19,121,Earthshock,Peter Davison,TRUE,TRUE,http://en.wikipedia.org/wiki/Earthshock,FALSE
-123,Doctor Who,19,122,Time-Flight,Peter Davison,TRUE,TRUE,http://en.wikipedia.org/wiki/Time-Flight,FALSE
-124,Doctor Who,20,123,Arc of Infinity,Peter Davison,TRUE,TRUE,http://en.wikipedia.org/wiki/Arc_of_Infinity,FALSE
-125,Doctor Who,20,124,Snakedance,Peter Davison,TRUE,TRUE,http://en.wikipedia.org/wiki/Snakedance,FALSE
-126,Doctor Who,20,125,Mawdryn Undead,Peter Davison,TRUE,FALSE,http://en.wikipedia.org/wiki/Mawdryn_Undead,FALSE
-127,Doctor Who,20,126,Terminus,Peter Davison,TRUE,FALSE,http://en.wikipedia.org/wiki/Terminus_(Doctor_Who),FALSE
-128,Doctor Who,20,127,Enlightenment,Peter Davison,TRUE,FALSE,http://en.wikipedia.org/wiki/Enlightenment_(Doctor_Who),FALSE
-129,Doctor Who,20,128,The King's Demons,Peter Davison,TRUE,FALSE,http://en.wikipedia.org/wiki/The_King%27s_Demons,FALSE
-130,Doctor Who,20,129,The Five Doctors,Peter Davison,TRUE,TRUE,https://en.wikipedia.org/wiki/The_Five_Doctors,FALSE
-131,Doctor Who,21,130,Warriors of the Deep,Peter Davison,TRUE,FALSE,http://en.wikipedia.org/wiki/Warriors_of_the_Deep,FALSE
-132,Doctor Who,21,131,The Awakening,Peter Davison,TRUE,TRUE,http://en.wikipedia.org/wiki/The_Awakening_(Doctor_Who),FALSE
-133,Doctor Who,21,132,Frontios,Peter Davison,TRUE,FALSE,http://en.wikipedia.org/wiki/Frontios,FALSE
-134,Doctor Who,21,133,Resurrection of the Daleks,Peter Davison,TRUE,TRUE,http://en.wikipedia.org/wiki/Resurrection_of_the_Daleks,FALSE
-135,Doctor Who,21,134,Planet of Fire,Peter Davison,TRUE,FALSE,http://en.wikipedia.org/wiki/Planet_of_Fire,FALSE
-136,Doctor Who,21,135,The Caves of Androzani,Peter Davison,TRUE,FALSE,http://en.wikipedia.org/wiki/The_Caves_of_Androzani,FALSE
-137,Doctor Who,21,136,The Twin Dilemma,Colin Baker,TRUE,FALSE,http://en.wikipedia.org/wiki/The_Twin_Dilemma,FALSE
-138,Doctor Who,22,137,Attack of the Cybermen,Colin Baker,TRUE,TRUE,http://en.wikipedia.org/wiki/Attack_of_the_Cybermen,FALSE
-139,Doctor Who,22,138,Vengeance on Varos,Colin Baker,TRUE,TRUE,http://en.wikipedia.org/wiki/Vengeance_on_Varos,FALSE
-140,Doctor Who,22,139,The Mark of the Rani,Colin Baker,TRUE,FALSE,http://en.wikipedia.org/wiki/The_Mark_of_the_Rani,FALSE
-141,Doctor Who,22,140,The Two Doctors,Colin Baker,TRUE,TRUE,http://en.wikipedia.org/wiki/The_Two_Doctors,FALSE
-142,Doctor Who,22,141,Timelash,Colin Baker,TRUE,FALSE,http://en.wikipedia.org/wiki/Timelash,FALSE
-143,Doctor Who,22,142,Revelation of the Daleks,Colin Baker,TRUE,TRUE,http://en.wikipedia.org/wiki/Revelation_of_the_Daleks,FALSE
-144,Doctor Who,23,143a,The Mysterious Planet - Episodes 1-4,Colin Baker,TRUE,TRUE,http://en.wikipedia.org/wiki/The_Mysterious_Planet,FALSE
-145,Doctor Who,23,143b,Mindwarp - Episodes 5-8,Colin Baker,TRUE,TRUE,http://en.wikipedia.org/wiki/Mindwarp,FALSE
-146,Doctor Who,23,143c,Terror of the Vervoids - Episodes 9-12,Colin Baker,TRUE,TRUE,http://en.wikipedia.org/wiki/Terror_of_the_Vervoids,FALSE
-147,Doctor Who,23,143d,The Ultimate Foe - Episodes 13-14,Colin Baker,TRUE,TRUE,http://en.wikipedia.org/wiki/The_Ultimate_Foe,FALSE
-148,Doctor Who,24,144,Time and the Rani,Sylvester McCoy,TRUE,TRUE,http://en.wikipedia.org/wiki/Time_and_the_Rani,FALSE
-149,Doctor Who,24,145,Paradise Towers,Sylvester McCoy,TRUE,FALSE,http://en.wikipedia.org/wiki/Paradise_Towers,FALSE
-150,Doctor Who,24,146,Delta and the Bannermen,Sylvester McCoy,TRUE,FALSE,http://en.wikipedia.org/wiki/Delta_and_the_Bannermen,FALSE
-151,Doctor Who,24,147,Dragonfire,Sylvester McCoy,TRUE,TRUE,http://en.wikipedia.org/wiki/Dragonfire_(Doctor_Who),FALSE
-152,Doctor Who,25,148,Remembrance of the Daleks,Sylvester McCoy,TRUE,TRUE,http://en.wikipedia.org/wiki/Remembrance_of_the_Daleks,FALSE
-153,Doctor Who,25,149,The Happiness Patrol,Sylvester McCoy,TRUE,TRUE,http://en.wikipedia.org/wiki/The_Happiness_Patrol,FALSE
-154,Doctor Who,25,150,Silver Nemesis,Sylvester McCoy,TRUE,TRUE,http://en.wikipedia.org/wiki/Silver_Nemesis,FALSE
-155,Doctor Who,25,151,The Greatest Show in the Galaxy,Sylvester McCoy,TRUE,FALSE,http://en.wikipedia.org/wiki/The_Greatest_Show_in_the_Galaxy,FALSE
-156,Doctor Who,26,152,Battlefield,Sylvester McCoy,TRUE,TRUE,http://en.wikipedia.org/wiki/Battlefield_(Doctor_Who),FALSE
-157,Doctor Who,26,153,Ghost Light,Sylvester McCoy,TRUE,FALSE,http://en.wikipedia.org/wiki/Ghost_Light_(Doctor_Who),FALSE
-158,Doctor Who,26,154,The Curse of Fenric,Sylvester McCoy,TRUE,TRUE,http://en.wikipedia.org/wiki/The_Curse_of_Fenric,FALSE
-159,Doctor Who,26,155,Survival,Sylvester McCoy,TRUE,TRUE,http://en.wikipedia.org/wiki/Survival_(Doctor_Who),FALSE
-160,Doctor Who,27,156,Doctor Who,Paul McGann,TRUE,TRUE,http://en.wikipedia.org/wiki/Doctor_Who_(1996_film),FALSE
-161,Doctor Who,28,157,Rose,Christopher Eccleston,FALSE,TRUE,http://en.wikipedia.org/wiki/Rose_(Doctor_Who),FALSE
-162,Doctor Who,28,158,The End of the World,Christopher Eccleston,FALSE,TRUE,http://en.wikipedia.org/wiki/The_End_of_the_World_(Doctor_Who),FALSE
-163,Doctor Who,28,159,The Unquiet Dead,Christopher Eccleston,FALSE,TRUE,http://en.wikipedia.org/wiki/The_Unquiet_Dead,FALSE
-164,Doctor Who,28,160,Aliens of London,Christopher Eccleston,FALSE,TRUE,http://en.wikipedia.org/wiki/Aliens_of_London,FALSE
-165,Doctor Who,28,160,World War Three,Christopher Eccleston,FALSE,TRUE,http://en.wikipedia.org/wiki/World_War_Three_(Doctor_Who),FALSE
-166,Doctor Who,28,161,Dalek,Christopher Eccleston,FALSE,TRUE,http://en.wikipedia.org/wiki/Dalek_(Doctor_Who_episode),FALSE
-167,Doctor Who,28,162,The Long Game,Christopher Eccleston,FALSE,TRUE,http://en.wikipedia.org/wiki/The_Long_Game,FALSE
-168,Doctor Who,28,163,Father's Day,Christopher Eccleston,FALSE,TRUE,http://en.wikipedia.org/wiki/Father%27s_Day_(Doctor_Who),FALSE
-169,Doctor Who,28,164,The Empty Child,Christopher Eccleston,FALSE,TRUE,http://en.wikipedia.org/wiki/The_Empty_Child,FALSE
-170,Doctor Who,28,164,The Doctor Dances,Christopher Eccleston,FALSE,TRUE,http://en.wikipedia.org/wiki/The_Doctor_Dances,FALSE
-171,Doctor Who,28,165,Boom Town,Christopher Eccleston,FALSE,TRUE,http://en.wikipedia.org/wiki/Boom_Town_(Doctor_Who),FALSE
-172,Doctor Who,28,166,Bad Wolf,Christopher Eccleston,FALSE,TRUE,http://en.wikipedia.org/wiki/Bad_Wolf,FALSE
-173,Doctor Who,28,166,The Parting of the Ways,Christopher Eccleston,FALSE,TRUE,http://en.wikipedia.org/wiki/The_Parting_of_the_Ways,FALSE
-174,Doctor Who,28,166a,Doctor Who: Children in Need,David Tennant,FALSE,FALSE,http://en.wikipedia.org/wiki/Doctor_Who:_Children_in_Need,FALSE
-175,Doctor Who,28,167,The Christmas Invasion,David Tennant,FALSE,TRUE,http://en.wikipedia.org/wiki/The_Christmas_Invasion,FALSE
-176,Doctor Who,29,168,New Earth,David Tennant,FALSE,TRUE,http://en.wikipedia.org/wiki/New_Earth,FALSE
-177,Doctor Who,29,169,Tooth and Claw,David Tennant,FALSE,TRUE,http://en.wikipedia.org/wiki/Tooth_and_Claw_(Doctor_Who),FALSE
-178,Doctor Who,29,170,School Reunion,David Tennant,FALSE,TRUE,http://en.wikipedia.org/wiki/School_Reunion_(Doctor_Who),FALSE
-179,Doctor Who,29,171,The Girl in the Fireplace,David Tennant,FALSE,TRUE,http://en.wikipedia.org/wiki/The_Girl_in_the_Fireplace,FALSE
-180,Doctor Who,29,172,Rise of the Cybermen,David Tennant,FALSE,TRUE,http://en.wikipedia.org/wiki/Rise_of_the_Cybermen,FALSE
-181,Doctor Who,29,172,The Age of Steel,David Tennant,FALSE,TRUE,http://en.wikipedia.org/wiki/The_Age_of_Steel,FALSE
-182,Doctor Who,29,173,The Idiot's Lantern,David Tennant,FALSE,TRUE,http://en.wikipedia.org/wiki/The_Idiot%27s_Lantern,FALSE
-183,Doctor Who,29,174,The Impossible Planet,David Tennant,FALSE,TRUE,http://en.wikipedia.org/wiki/The_Impossible_Planet,FALSE
-184,Doctor Who,29,174,The Satan Pit,David Tennant,FALSE,TRUE,http://en.wikipedia.org/wiki/The_Satan_Pit,FALSE
-185,Doctor Who,29,175,Love & Monsters,David Tennant,FALSE,TRUE,http://en.wikipedia.org/wiki/Love_%26_Monsters,FALSE
-186,Doctor Who,29,176,Fear Her,David Tennant,FALSE,TRUE,http://en.wikipedia.org/wiki/Fear_Her,FALSE
-187,Doctor Who,29,177,Army of Ghosts,David Tennant,FALSE,TRUE,http://en.wikipedia.org/wiki/Army_of_Ghosts,FALSE
-188,Doctor Who,29,177,Doomsday,David Tennant,FALSE,TRUE,http://en.wikipedia.org/wiki/Doomsday_(Doctor_Who),FALSE
-189,Doctor Who,29,178,The Runaway Bride,David Tennant,FALSE,TRUE,http://en.wikipedia.org/wiki/The_Runaway_Bride_(Doctor_Who),FALSE
-190,Doctor Who,30,179,Smith and Jones,David Tennant,FALSE,TRUE,http://en.wikipedia.org/wiki/Smith_and_Jones_(Doctor_Who),FALSE
-191,Doctor Who,30,180,The Shakespeare Code,David Tennant,FALSE,TRUE,http://en.wikipedia.org/wiki/The_Shakespeare_Code,FALSE
-192,Doctor Who,30,181,Gridlock,David Tennant,FALSE,TRUE,http://en.wikipedia.org/wiki/Gridlock_(Doctor_Who),FALSE
-193,Doctor Who,30,182,Daleks in Manhattan,David Tennant,FALSE,TRUE,http://en.wikipedia.org/wiki/Daleks_in_Manhattan,FALSE
-194,Doctor Who,30,182,Evolution of the Daleks,David Tennant,FALSE,TRUE,http://en.wikipedia.org/wiki/Evolution_of_the_Daleks,FALSE
-195,Doctor Who,30,183,The Lazarus Experiment,David Tennant,FALSE,TRUE,http://en.wikipedia.org/wiki/The_Lazarus_Experiment,FALSE
-196,Doctor Who,30,184,42,David Tennant,FALSE,TRUE,http://en.wikipedia.org/wiki/42_(Doctor_Who),FALSE
-197,Doctor Who,30,185,Human Nature,David Tennant,FALSE,TRUE,http://en.wikipedia.org/wiki/Human_Nature_(Doctor_Who_episode),FALSE
-198,Doctor Who,30,185,The Family of Blood,David Tennant,FALSE,TRUE,http://en.wikipedia.org/wiki/The_Family_of_Blood,FALSE
-199,Doctor Who,30,186,Blink,David Tennant,FALSE,TRUE,http://en.wikipedia.org/wiki/Blink_(Doctor_Who),FALSE
-200,Doctor Who,30,187,Utopia,David Tennant,FALSE,TRUE,http://en.wikipedia.org/wiki/Utopia_(Doctor_Who),FALSE
-201,Doctor Who,30,187,The Sound of Drums,David Tennant,FALSE,TRUE,http://en.wikipedia.org/wiki/The_Sound_of_Drums,FALSE
-202,Doctor Who,30,187,Last of the Time Lords,David Tennant,FALSE,TRUE,http://en.wikipedia.org/wiki/Last_of_the_Time_Lords,FALSE
-203,Doctor Who,30,187a,Time Crash,David Tennant,FALSE,TRUE,http://en.wikipedia.org/wiki/Time_Crash,FALSE
-204,Doctor Who,30,188,Voyage of the Damned,David Tennant,FALSE,TRUE,http://en.wikipedia.org/wiki/Voyage_of_the_Damned_(Doctor_Who),FALSE
-205,Doctor Who,31,189,Partners in Crime,David Tennant,FALSE,TRUE,http://en.wikipedia.org/wiki/Partners_in_Crime_(Doctor_Who),FALSE
-206,Doctor Who,31,190,The Fires of Pompeii,David Tennant,FALSE,TRUE,http://en.wikipedia.org/wiki/The_Fires_of_Pompeii,FALSE
-207,Doctor Who,31,191,Planet of the Ood,David Tennant,FALSE,TRUE,http://en.wikipedia.org/wiki/Planet_of_the_Ood,FALSE
-208,Doctor Who,31,192,The Sontaran Stratagem,David Tennant,FALSE,TRUE,http://en.wikipedia.org/wiki/The_Sontaran_Stratagem,FALSE
-209,Doctor Who,31,192,The Poison Sky,David Tennant,FALSE,TRUE,http://en.wikipedia.org/wiki/The_Poison_Sky,FALSE
-210,Doctor Who,31,193,The Doctor's Daughter,David Tennant,FALSE,TRUE,http://en.wikipedia.org/wiki/The_Doctor%27s_Daughter,FALSE
-211,Doctor Who,31,194,The Unicorn and the Wasp,David Tennant,FALSE,TRUE,http://en.wikipedia.org/wiki/The_Unicorn_and_the_Wasp,FALSE
-212,Doctor Who,31,195,Silence in the Library,David Tennant,FALSE,TRUE,http://en.wikipedia.org/wiki/Silence_in_the_Library,FALSE
-213,Doctor Who,31,195,Forest of the Dead,David Tennant,FALSE,TRUE,http://en.wikipedia.org/wiki/Forest_of_the_Dead,FALSE
-214,Doctor Who,31,196,Midnight,David Tennant,FALSE,TRUE,http://en.wikipedia.org/wiki/Midnight_(Doctor_Who),FALSE
-215,Doctor Who,31,197,Turn Left,David Tennant,FALSE,TRUE,http://en.wikipedia.org/wiki/Turn_Left_(Doctor_Who),FALSE
-216,Doctor Who,31,198,The Stolen Earth,David Tennant,FALSE,TRUE,http://en.wikipedia.org/wiki/The_Stolen_Earth,FALSE
-217,Doctor Who,31,198,Journey's End,David Tennant,FALSE,TRUE,http://en.wikipedia.org/wiki/Journey%27s_End_(Doctor_Who),FALSE
-218,Doctor Who,31,199,The Next Doctor,David Tennant,FALSE,FALSE,http://en.wikipedia.org/wiki/The_Next_Doctor,FALSE
-219,Doctor Who,31,200,Planet of the Dead,David Tennant,FALSE,FALSE,http://en.wikipedia.org/wiki/Planet_of_the_Dead,FALSE
-220,Doctor Who,31,201,The Waters of Mars,David Tennant,FALSE,FALSE,http://en.wikipedia.org/wiki/The_Waters_of_Mars,FALSE
-221,Doctor Who,31,202,The End of Time - Part 1,David Tennant,FALSE,FALSE,http://en.wikipedia.org/wiki/The_End_of_Time,FALSE
-222,Doctor Who,31,202,The End of Time - Part 2,David Tennant,FALSE,FALSE,http://en.wikipedia.org/wiki/The_End_of_Time,FALSE
-223,Doctor Who,32,203,The Eleventh Hour,Matt Smith,FALSE,TRUE,http://en.wikipedia.org/wiki/The_Eleventh_Hour_(Doctor_Who),FALSE
-224,Doctor Who,32,204,The Beast Below,Matt Smith,FALSE,TRUE,http://en.wikipedia.org/wiki/The_Beast_Below,FALSE
-225,Doctor Who,32,205,Victory of the Daleks,Matt Smith,FALSE,TRUE,http://en.wikipedia.org/wiki/Victory_of_the_Daleks,FALSE
-226,Doctor Who,32,206,The Time of Angels,Matt Smith,FALSE,TRUE,http://en.wikipedia.org/wiki/The_Time_of_Angels,FALSE
-227,Doctor Who,32,206,Flesh and Stone,Matt Smith,FALSE,TRUE,http://en.wikipedia.org/wiki/Flesh_and_Stone,FALSE
-228,Doctor Who,32,207,The Vampires of Venice,Matt Smith,FALSE,TRUE,http://en.wikipedia.org/wiki/The_Vampires_of_Venice,FALSE
-229,Doctor Who,32,208,Amy's Choice,Matt Smith,FALSE,TRUE,http://en.wikipedia.org/wiki/Amy%27s_Choice_(Doctor_Who),FALSE
-230,Doctor Who,32,209,The Hungry Earth,Matt Smith,FALSE,TRUE,http://en.wikipedia.org/wiki/The_Hungry_Earth,FALSE
-231,Doctor Who,32,209,Cold Blood,Matt Smith,FALSE,TRUE,http://en.wikipedia.org/wiki/Cold_Blood_(Doctor_Who),FALSE
-232,Doctor Who,32,210,Vincent and the Doctor,Matt Smith,FALSE,TRUE,http://en.wikipedia.org/wiki/Vincent_and_the_Doctor,FALSE
-233,Doctor Who,32,211,The Lodger,Matt Smith,FALSE,TRUE,http://en.wikipedia.org/wiki/The_Lodger_(Doctor_Who),FALSE
-234,Doctor Who,32,212,The Pandorica Opens,Matt Smith,FALSE,TRUE,http://en.wikipedia.org/wiki/The_Pandorica_Opens,FALSE
-235,Doctor Who,32,212,The Big Bang,Matt Smith,FALSE,TRUE,http://en.wikipedia.org/wiki/The_Big_Bang_(Doctor_Who),FALSE
-236,Doctor Who,32,213,A Christmas Carol,Matt Smith,FALSE,TRUE,http://en.wikipedia.org/wiki/A_Christmas_Carol_(Doctor_Who),FALSE
-237,Doctor Who,32,213a,Space,Matt Smith,FALSE,TRUE,http://en.wikipedia.org/wiki/Space_/_Time,FALSE
-238,Doctor Who,32,213b,Time,Matt Smith,FALSE,TRUE,http://en.wikipedia.org/wiki/Space_/_Time,FALSE
-239,Doctor Who,33,214,The Impossible Astronaut,Matt Smith,FALSE,TRUE,http://en.wikipedia.org/wiki/The_Impossible_Astronaut,FALSE
-240,Doctor Who,33,214,Day of the Moon,Matt Smith,FALSE,TRUE,http://en.wikipedia.org/wiki/Day_of_the_Moon,FALSE
-241,Doctor Who,33,215,The Curse of the Black Spot,Matt Smith,FALSE,TRUE,http://en.wikipedia.org/wiki/The_Curse_of_the_Black_Spot,FALSE
-242,Doctor Who,33,216,The Doctor's Wife,Matt Smith,FALSE,TRUE,http://en.wikipedia.org/wiki/The_Doctor%27s_Wife,FALSE
-243,Doctor Who,33,217,The Rebel Flesh,Matt Smith,FALSE,TRUE,http://en.wikipedia.org/wiki/The_Rebel_Flesh,FALSE
-244,Doctor Who,33,217,The Almost People,Matt Smith,FALSE,TRUE,http://en.wikipedia.org/wiki/The_Almost_People,FALSE
-245,Doctor Who,33,218,A Good Man Goes to War,Matt Smith,FALSE,TRUE,http://en.wikipedia.org/wiki/A_Good_Man_Goes_to_War,FALSE
-246,Doctor Who,33,219,Let's Kill Hitler,Matt Smith,FALSE,TRUE,http://en.wikipedia.org/wiki/Let%27s_Kill_Hitler,FALSE
-247,Doctor Who,33,220,Night Terrors,Matt Smith,FALSE,TRUE,http://en.wikipedia.org/wiki/Night_Terrors_(Doctor_Who),FALSE
-248,Doctor Who,33,221,The Girl Who Waited,Matt Smith,FALSE,TRUE,http://en.wikipedia.org/wiki/The_Girl_Who_Waited,FALSE
-249,Doctor Who,33,222,The God Complex,Matt Smith,FALSE,TRUE,http://en.wikipedia.org/wiki/The_God_Complex,FALSE
-250,Doctor Who,33,223,Closing Time,Matt Smith,FALSE,TRUE,http://en.wikipedia.org/wiki/Closing_Time_(Doctor_Who),FALSE
-251,Doctor Who,33,224,The Wedding of River Song,Matt Smith,FALSE,TRUE,http://en.wikipedia.org/wiki/The_Wedding_of_River_Song,FALSE
-252,Doctor Who,33,225,"The Doctor, the Widow and the Wardrobe",Matt Smith,FALSE,TRUE,"http://en.wikipedia.org/wiki/The_Doctor,_the_Widow_and_the_Wardrobe",FALSE
-253,Doctor Who,33,225a,Pond Life,Matt Smith,FALSE,TRUE,https://en.wikipedia.org/wiki/Pond_Life_(Doctor_Who),FALSE
-254,Doctor Who,34,226,Asylum of the Daleks,Matt Smith,FALSE,TRUE,http://en.wikipedia.org/wiki/Asylum_of_the_Daleks,FALSE
-255,Doctor Who,34,227,Dinosaurs on a Spaceship,Matt Smith,FALSE,TRUE,http://en.wikipedia.org/wiki/Dinosaurs_on_a_Spaceship,FALSE
-256,Doctor Who,34,228,A Town Called Mercy,Matt Smith,FALSE,TRUE,http://en.wikipedia.org/wiki/A_Town_Called_Mercy,FALSE
-257,Doctor Who,34,229,The Power of Three,Matt Smith,FALSE,TRUE,http://en.wikipedia.org/wiki/The_Power_of_Three_(Doctor_Who),FALSE
-258,Doctor Who,34,230,The Angels Take Manhattan,Matt Smith,FALSE,TRUE,http://en.wikipedia.org/wiki/The_Angels_Take_Manhattan,FALSE
-259,Doctor Who,34,231,The Snowmen,Matt Smith,FALSE,TRUE,http://en.wikipedia.org/wiki/The_Snowmen,FALSE
-260,Doctor Who,34,232,The Bells of Saint John,Matt Smith,FALSE,TRUE,http://en.wikipedia.org/wiki/The_Bells_of_Saint_John,FALSE
-261,Doctor Who,34,233,The Rings of Akhaten,Matt Smith,FALSE,TRUE,http://en.wikipedia.org/wiki/The_Rings_of_Akhaten,FALSE
-262,Doctor Who,34,234,Cold War,Matt Smith,FALSE,TRUE,http://en.wikipedia.org/wiki/Cold_War_(Doctor_Who),FALSE
-263,Doctor Who,34,235,Hide,Matt Smith,FALSE,TRUE,http://en.wikipedia.org/wiki/Hide_(Doctor_Who),FALSE
-264,Doctor Who,34,236,Journey to the Centre of the TARDIS,Matt Smith,FALSE,TRUE,http://en.wikipedia.org/wiki/Journey_to_the_Centre_of_the_TARDIS,FALSE
-265,Doctor Who,34,237,The Crimson Horror,Matt Smith,FALSE,TRUE,http://en.wikipedia.org/wiki/The_Crimson_Horror,FALSE
-266,Doctor Who,34,238,Nightmare in Silver,Matt Smith,FALSE,TRUE,http://en.wikipedia.org/wiki/Nightmare_in_Silver,FALSE
-267,Doctor Who,34,239,The Name of the Doctor,Matt Smith,FALSE,TRUE,http://en.wikipedia.org/wiki/The_Name_of_the_Doctor,FALSE
-268,Doctor Who,34,240,The Day of the Doctor,Matt Smith,FALSE,TRUE,https://en.wikipedia.org/wiki/The_Day_of_the_Doctor,FALSE
-269,Doctor Who,34,241,The Time of the Doctor,Matt Smith,FALSE,FALSE,http://en.wikipedia.org/wiki/2013_Christmas_special_(Doctor_Who),FALSE
-270,Doctor Who,35,242,Deep Breath,Peter Capaldi,FALSE,TRUE,https://en.wikipedia.org/wiki/Deep_Breath_(Doctor_Who),FALSE
-271,Doctor Who,35,243,Into the Dalek,Peter Capaldi,FALSE,TRUE,https://en.wikipedia.org/wiki/Into_the_Dalek,FALSE
-272,Doctor Who,35,244,Robot of Sherwood,Peter Capaldi,FALSE,TRUE,https://en.wikipedia.org/wiki/Robot_of_Sherwood,FALSE
-273,Doctor Who,35,245,Listen,Peter Capaldi,FALSE,TRUE,https://en.wikipedia.org/wiki/Listen_(Doctor_Who),FALSE
-274,Doctor Who,35,246,Time Heist,Peter Capaldi,FALSE,TRUE,https://en.wikipedia.org/wiki/Time_Heist,FALSE
-275,Doctor Who,35,247,The Caretaker,Peter Capaldi,FALSE,TRUE,https://en.wikipedia.org/wiki/The_Caretaker_(Doctor_Who),FALSE
-276,Doctor Who,35,248,Kill the Moon,Peter Capaldi,FALSE,TRUE,https://en.wikipedia.org/wiki/Kill_the_Moon,FALSE
-277,Doctor Who,35,249,Mummy on the Orient Express,Peter Capaldi,FALSE,TRUE,https://en.wikipedia.org/wiki/Mummy_on_the_Orient_Express,FALSE
-278,Doctor Who,35,250,Flatline,Peter Capaldi,FALSE,TRUE,https://en.wikipedia.org/wiki/Flatline_(Doctor_Who),FALSE
-279,Doctor Who,35,251,In the Forest of the Night,Peter Capaldi,FALSE,TRUE,https://en.wikipedia.org/wiki/In_the_Forest_of_the_Night,FALSE
-280,Doctor Who,35,252,Dark Water,Peter Capaldi,FALSE,TRUE,https://en.wikipedia.org/wiki/Dark_Water_(Doctor_Who),FALSE
-281,Doctor Who,35,252,Death in Heaven,Peter Capaldi,FALSE,TRUE,https://en.wikipedia.org/wiki/Death_in_Heaven,FALSE
-282,Doctor Who,35,253,Last Christmas,Peter Capaldi,FALSE,TRUE,https://en.wikipedia.org/wiki/Last_Christmas_(Doctor_Who),FALSE
-283,Doctor Who,36,254,The Magician's Apprentice,Peter Capaldi,FALSE,TRUE,https://en.wikipedia.org/wiki/The_Magician%27s_Apprentice_(Doctor_Who),FALSE
-284,Doctor Who,36,254,The Witch's Familiar,Peter Capaldi,FALSE,TRUE,https://en.wikipedia.org/wiki/The_Witch%27s_Familiar,FALSE
-285,Doctor Who,36,255,Under the Lake,Peter Capaldi,FALSE,TRUE,https://en.wikipedia.org/wiki/Under_the_Lake,FALSE
-286,Doctor Who,36,255,Before the Flood,Peter Capaldi,FALSE,TRUE,https://en.wikipedia.org/wiki/Before_the_Flood_(Doctor_Who),FALSE
-287,Doctor Who,36,256,The Girl Who Died,Peter Capaldi,FALSE,TRUE,https://en.wikipedia.org/wiki/The_Girl_Who_Died,FALSE
-288,Doctor Who,36,257,The Woman Who Lived,Peter Capaldi,FALSE,TRUE,https://en.wikipedia.org/wiki/The_Woman_Who_Lived,FALSE
-289,Doctor Who,36,258,The Zygon Invasion,Peter Capaldi,FALSE,TRUE,https://en.wikipedia.org/wiki/The_Zygon_Invasion,FALSE
-290,Doctor Who,36,258,The Zygon Inversion,Peter Capaldi,FALSE,TRUE,https://en.wikipedia.org/wiki/The_Zygon_Inversion,FALSE
-291,Doctor Who,36,259,Sleep No More,Peter Capaldi,FALSE,TRUE,https://en.wikipedia.org/wiki/Sleep_No_More_(Doctor_Who),FALSE
-292,Doctor Who,36,260,Face the Raven,Peter Capaldi,FALSE,TRUE,https://en.wikipedia.org/wiki/Face_the_Raven,FALSE
-293,Doctor Who,36,261,Heaven Sent,Peter Capaldi,FALSE,TRUE,https://en.wikipedia.org/wiki/Heaven_Sent_(Doctor_Who),FALSE
-294,Doctor Who,36,262,Hell Bent,Peter Capaldi,FALSE,TRUE,https://en.wikipedia.org/wiki/Hell_Bent_(Doctor_Who),FALSE
-295,Doctor Who,36,263,The Husbands of River Song,Peter Capaldi,FALSE,TRUE,https://en.wikipedia.org/wiki/The_Husbands_of_River_Song,FALSE
-296,Doctor Who,36,264,The Return of Doctor Mysterio,Peter Capaldi,FALSE,TRUE,https://en.wikipedia.org/wiki/The_Return_of_Doctor_Mysterio,FALSE
-297,Doctor Who,37,265,The Pilot,Peter Capaldi,FALSE,TRUE,https://en.wikipedia.org/wiki/The_Pilot_(Doctor_Who),FALSE
-298,Doctor Who,37,266,Smile,Peter Capaldi,FALSE,TRUE,https://en.wikipedia.org/wiki/Smile_(Doctor_Who),FALSE
-299,Doctor Who,37,267,Thin Ice,Peter Capaldi,FALSE,TRUE,https://en.wikipedia.org/wiki/Thin_Ice_(Doctor_Who),FALSE
-300,Doctor Who,37,268,Knock Knock,Peter Capaldi,FALSE,TRUE,https://en.wikipedia.org/wiki/Knock_Knock_(Doctor_Who),FALSE
-301,Doctor Who,37,269,Oxygen,Peter Capaldi,FALSE,TRUE,https://en.wikipedia.org/wiki/Oxygen_(Doctor_Who),FALSE
-302,Doctor Who,37,270,Extremis,Peter Capaldi,FALSE,TRUE,https://en.wikipedia.org/wiki/Extremis_(Doctor_Who),FALSE
-303,Doctor Who,37,271,The Pyramid at the End of the World,Peter Capaldi,FALSE,TRUE,https://en.wikipedia.org/wiki/The_Pyramid_at_the_End_of_the_World,FALSE
-304,Doctor Who,37,272,The Lie of the Land,Peter Capaldi,FALSE,TRUE,https://en.wikipedia.org/wiki/The_Lie_of_the_Land,FALSE
-305,Doctor Who,37,273,Empress of Mars,Peter Capaldi,FALSE,TRUE,https://en.wikipedia.org/wiki/Empress_of_Mars,FALSE
-306,Doctor Who,37,274,The Eaters of Light,Peter Capaldi,FALSE,TRUE,https://en.wikipedia.org/wiki/The_Eaters_of_Light,FALSE
-307,Doctor Who,37,275a,World Enough and Time,Peter Capaldi,FALSE,TRUE,https://en.wikipedia.org/wiki/World_Enough_and_Time_(Doctor_Who),FALSE
-308,Doctor Who,37,275b,The Doctor Falls,Peter Capaldi,FALSE,TRUE,https://en.wikipedia.org/wiki/The_Doctor_Falls,FALSE
-309,Doctor Who,37,276,Twice Upon a Time,Peter Capaldi,FALSE,TRUE,https://en.wikipedia.org/wiki/Twice_Upon_a_Time_(Doctor_Who),FALSE
-310,Doctor Who,38,277,The Woman Who Fell to Earth,Jodie Whittaker,FALSE,TRUE,https://en.wikipedia.org/wiki/The_Woman_Who_Fell_to_Earth,FALSE
-311,Doctor Who,38,278,The Ghost Monument,Jodie Whittaker,FALSE,TRUE,https://en.wikipedia.org/wiki/The_Ghost_Monument,FALSE
-312,Doctor Who,38,279,Rosa,Jodie Whittaker,FALSE,TRUE,https://en.wikipedia.org/wiki/Rosa_(Doctor_Who),FALSE
-313,Doctor Who,38,280,Arachnids in the UK,Jodie Whittaker,FALSE,TRUE,https://en.wikipedia.org/wiki/Arachnids_in_the_UK,FALSE
-314,Doctor Who,38,281,The Tsuranga Conundrum,Jodie Whittaker,FALSE,TRUE,https://en.wikipedia.org/wiki/The_Tsuranga_Conundrum,FALSE
-315,Doctor Who,38,282,Demons of the Punjab,Jodie Whittaker,FALSE,TRUE,https://en.wikipedia.org/wiki/Demons_of_the_Punjab,FALSE
-316,Doctor Who,38,283,Kerblam!,Jodie Whittaker,FALSE,TRUE,https://en.wikipedia.org/wiki/Kerblam!,FALSE
-317,Doctor Who,38,284,The Witchfinders,Jodie Whittaker,FALSE,TRUE,https://en.wikipedia.org/wiki/The_Witchfinders,FALSE
-318,Doctor Who,38,285,It Takes You Away,Jodie Whittaker,FALSE,TRUE,https://en.wikipedia.org/wiki/It_Takes_You_Away,FALSE
-319,Doctor Who,38,286,The Battle of Ranskoor Av Kolos,Jodie Whittaker,FALSE,TRUE,https://en.wikipedia.org/wiki/The_Battle_of_Ranskoor_Av_Kolos,FALSE
-320,Doctor Who,38,287,Resolution,Jodie Whittaker,FALSE,FALSE,https://en.wikipedia.org/wiki/Resolution_(Doctor_Who),FALSE
-321,Doctor Who,39,288a,"Spyfall, Part 1",Jodie Whittaker,FALSE,FALSE,https://en.wikipedia.org/wiki/Spyfall_(Doctor_Who),FALSE
-322,Doctor Who,39,288b,"Spyfall, Part 2",Jodie Whittaker,FALSE,FALSE,https://en.wikipedia.org/wiki/Spyfall_(Doctor_Who),FALSE
-323,Doctor Who,39,289,Orphan 55,Jodie Whittaker,FALSE,FALSE,https://en.wikipedia.org/wiki/Orphan_55,FALSE
-324,Doctor Who,39,290,Nikola Teslas Night of Terror,Jodie Whittaker,FALSE,FALSE,https://en.wikipedia.org/wiki/Nikola_Tesla%27s_Night_of_Terror,FALSE
-325,Doctor Who,39,291,Fugitive of the Judoon,Jodie Whittaker,FALSE,FALSE,https://en.wikipedia.org/wiki/Fugitive_of_the_Judoon,FALSE
-326,Doctor Who,39,292,Preaxeus,Jodie Whittaker,FALSE,FALSE,https://en.wikipedia.org/wiki/Praxeus,FALSE
-327,Doctor Who,39,293,Can You Hear Me,Jodie Whittaker,FALSE,FALSE,https://en.wikipedia.org/wiki/Can_You_Hear_Me%3F_(Doctor_Who),FALSE
-328,Doctor Who,39,294,The Haunting of Villa Diodati,Jodie Whittaker,FALSE,FALSE,https://en.wikipedia.org/wiki/The_Haunting_of_Villa_Diodati,FALSE
-329,Doctor Who,39,295a,Acension of the Cybermen,Jodie Whittaker,FALSE,FALSE,https://en.wikipedia.org/wiki/Ascension_of_the_Cybermen,FALSE
-330,Doctor Who,39,295b,The Timeless Children,Jodie Whittaker,FALSE,FALSE,https://en.wikipedia.org/wiki/The_Timeless_Children,FALSE
-331,Doctor Who,39,296,Revolution of the Daleks,Jodie Whittaker,FALSE,FALSE,https://en.wikipedia.org/wiki/Revolution_of_the_Daleks,FALSE
-332,Doctor Who,40,297a,The Halloween Apocalypse,Jodie Whittaker,FALSE,FALSE,https://en.wikipedia.org/wiki/The_Halloween_Apocalypse,FALSE
-333,Doctor Who,40,297b,War of the Sontarans,Jodie Whittaker,FALSE,FALSE,https://en.wikipedia.org/wiki/War_of_the_Sontarans,FALSE
-334,Doctor Who,40,297c,"Once, Upon Time",Jodie Whittaker,FALSE,FALSE,"https://en.wikipedia.org/wiki/Once,_Upon_Time",FALSE
-335,Doctor Who,40,297d,Village of he Angels,Jodie Whittaker,FALSE,FALSE,https://en.wikipedia.org/wiki/Village_of_the_Angels,FALSE
-336,Doctor Who,40,297e,Survivors of the Flux,Jodie Whittaker,FALSE,FALSE,https://en.wikipedia.org/wiki/Survivors_of_the_Flux,FALSE
-337,Doctor Who,40,297f,The Vanquishers,Jodie Whittaker,FALSE,FALSE,https://en.wikipedia.org/wiki/The_Vanquishers,FALSE
-338,Doctor Who,40,298,Eve of the Daleks,Jodie Whittaker,FALSE,FALSE,https://en.wikipedia.org/wiki/Eve_of_the_Daleks,FALSE
-339,Doctor Who,40,299,Legend of the Sea Devils,Jodie Whittaker,FALSE,FALSE,https://en.wikipedia.org/wiki/Legend_of_the_Sea_Devils,FALSE
-340,Doctor Who,40,300,The Power of the Doctor,Jodie Whittaker,FALSE,FALSE,https://en.wikipedia.org/wiki/The_Power_of_the_Doctor,FALSE
-341,Doctor Who,40,301,The Star Beast,David Tennant,FALSE,FALSE,https://en.wikipedia.org/wiki/The_Star_Beast_(Doctor_Who_episode),FALSE
-342,Doctor Who,40,302,Wild Blue Yonder,David Tennant,FALSE,FALSE,https://en.wikipedia.org/wiki/Wild_Blue_Yonder_(Doctor_Who),FALSE
-343,Doctor Who,40,303,The Giggle,David Tennant,FALSE,FALSE,https://en.wikipedia.org/wiki/The_Giggle,FALSE
-344,Doctor Who,41,304,The Church on Ruby Road,Nciti Gatwa,FALSE,FALSE,https://en.wikipedia.org/wiki/The_Church_on_Ruby_Road,FALSE
-345,Doctor Who,41,305,Space Babies,Nciti Gatwa,FALSE,FALSE,https://en.wikipedia.org/wiki/Space_Babies,FALSE
-346,Doctor Who,41,306,The Devils Chord,Nciti Gatwa,FALSE,FALSE,https://en.wikipedia.org/wiki/The_Devil%27s_Chord,FALSE
-347,Doctor Who,41,307,Boom,Nciti Gatwa,FALSE,FALSE,https://en.wikipedia.org/wiki/Boom_(Doctor_Who),FALSE
-348,Doctor Who,41,308,73 Yards,Nciti Gatwa,FALSE,FALSE,https://en.wikipedia.org/wiki/73_Yards,FALSE
-349,Doctor Who,41,309,Dot and Bubble,Nciti Gatwa,FALSE,FALSE,https://en.wikipedia.org/wiki/Dot_and_Bubble,FALSE
-350,Doctor Who,41,310,Rogue,Nciti Gatwa,FALSE,FALSE,https://en.wikipedia.org/wiki/Rogue_(Doctor_Who),FALSE
-351,Doctor Who,41,311a,The Legend of Ruby Sunday,Nciti Gatwa,FALSE,FALSE,https://en.wikipedia.org/wiki/The_Legend_of_Ruby_Sunday,FALSE
-352,Doctor Who,41,311b,Empire of Death,Nciti Gatwa,FALSE,FALSE,https://en.wikipedia.org/wiki/Empire_of_Death_(Doctor_Who_episode),FALSE
-353,Doctor Who,42,312,Joy to the World,Nciti Gatwa,FALSE,FALSE,https://en.wikipedia.org/wiki/Joy_to_the_World_(Doctor_Who),FALSE
-354,Doctor Who,42,313,The Robot Revolution,Nciti Gatwa,FALSE,FALSE,https://en.wikipedia.org/wiki/The_Robot_Revolution,FALSE
-355,Doctor Who,42,314,Lux,Nciti Gatwa,FALSE,FALSE,,FALSE
-356,Doctor Who,42,315,The Well,Nciti Gatwa,FALSE,FALSE,,FALSE
-357,Doctor Who,42,316,Lucky Day,Nciti Gatwa,FALSE,FALSE,,FALSE
-358,Doctor Who,42,317,The Story & the Engine,Nciti Gatwa,FALSE,FALSE,,FALSE
-359,Doctor Who,42,318,The Interstellar Song Contest,Nciti Gatwa,FALSE,FALSE,,FALSE
-360,Doctor Who,42,319a,Wish World,Nciti Gatwa,FALSE,FALSE,,FALSE
-361,Doctor Who,42,319b,The Reality War,Nciti Gatwa,FALSE,FALSE,,FALSE
+index,series,season,story,title,doctor,image,collected,url,watched,cover,available
+1,Doctor Who,1,1,An Unearthly Child,William Hartnell,True,True,http://en.wikipedia.org/wiki/An_Unearthly_Child,True,1,True
+2,Doctor Who,1,2,The Daleks,William Hartnell,True,True,http://en.wikipedia.org/wiki/The_Daleks,False,2,True
+3,Doctor Who,1,3,The Edge of Destruction,William Hartnell,True,True,http://en.wikipedia.org/wiki/The_Edge_of_Destruction,False,3,True
+4,Doctor Who,1,4,Marco Polo,William Hartnell,True,False,http://en.wikipedia.org/wiki/Marco_Polo_(Doctor_Who),False,4,False
+5,Doctor Who,1,5,The Keys of Marinus,William Hartnell,True,True,http://en.wikipedia.org/wiki/The_Keys_of_Marinus,False,5,True
+6,Doctor Who,1,6,The Aztecs,William Hartnell,True,True,http://en.wikipedia.org/wiki/The_Aztecs_(Doctor_Who),False,6,True
+7,Doctor Who,1,7,The Sensorites,William Hartnell,True,True,http://en.wikipedia.org/wiki/The_Sensorites,False,7,True
+8,Doctor Who,1,8,The Reign of Terror,William Hartnell,True,True,http://en.wikipedia.org/wiki/The_Reign_of_Terror_(Doctor_Who),False,8,True
+9,Doctor Who,2,9,Planet of Giants,William Hartnell,True,True,http://en.wikipedia.org/wiki/Planet_of_Giants,False,9,True
+10,Doctor Who,2,10,The Dalek Invasion of Earth,William Hartnell,True,True,http://en.wikipedia.org/wiki/The_Dalek_Invasion_of_Earth,False,10,True
+11,Doctor Who,2,11,The Rescue,William Hartnell,True,True,http://en.wikipedia.org/wiki/The_Rescue_(Doctor_Who),False,11,True
+12,Doctor Who,2,12,The Romans,William Hartnell,True,True,http://en.wikipedia.org/wiki/The_Romans_(Doctor_Who),False,12,True
+13,Doctor Who,2,13,The Web Planet,William Hartnell,True,True,http://en.wikipedia.org/wiki/The_Web_Planet,False,13,True
+14,Doctor Who,2,14,The Crusade,William Hartnell,True,False,http://en.wikipedia.org/wiki/The_Crusade_(Doctor_Who),False,14,False
+15,Doctor Who,2,15,The Space Museum,William Hartnell,True,True,http://en.wikipedia.org/wiki/The_Space_Museum,False,15,True
+16,Doctor Who,2,16,The Chase,William Hartnell,True,True,http://en.wikipedia.org/wiki/The_Chase_(Doctor_Who),False,16,True
+17,Doctor Who,2,17,The Time Meddler,William Hartnell,True,True,http://en.wikipedia.org/wiki/The_Time_Meddler,False,17,True
+18,Doctor Who,3,18,Galaxy 4,William Hartnell,True,True,http://en.wikipedia.org/wiki/Galaxy_4,False,18,True
+19,Doctor Who,3,19,Mission to the Unknown aka Dalek Cutaway,William Hartnell,True,False,http://en.wikipedia.org/wiki/Mission_to_the_Unknown,False,19,False
+20,Doctor Who,3,20,The Myth Makers,William Hartnell,True,False,http://en.wikipedia.org/wiki/The_Myth_Makers,False,20,False
+21,Doctor Who,3,21,The Daleks' Master Plan,William Hartnell,True,False,http://en.wikipedia.org/wiki/The_Daleks%27_Master_Plan,False,21,False
+22,Doctor Who,3,22,The Massacre of St Bartholomew's Eve aka The Massacre,William Hartnell,True,False,http://en.wikipedia.org/wiki/The_Massacre_of_St_Bartholomew%27s_Eve,False,22,False
+23,Doctor Who,3,23,The Ark,William Hartnell,True,True,http://en.wikipedia.org/wiki/The_Ark_(Doctor_Who),False,23,True
+24,Doctor Who,3,24,The Celestial Toymaker,William Hartnell,True,True,http://en.wikipedia.org/wiki/The_Celestial_Toymaker,True,24,True
+25,Doctor Who,3,25,The Gunfighters,William Hartnell,True,True,http://en.wikipedia.org/wiki/The_Gunfighters,False,25,True
+26,Doctor Who,3,26,The Savages,William Hartnell,True,True,https://en.wikipedia.org/wiki/The_Savages_(Doctor_Who),False,26,True
+27,Doctor Who,3,27,The War Machines,William Hartnell,True,True,http://en.wikipedia.org/wiki/The_War_Machines,False,27,True
+28,Doctor Who,4,28,The Smugglers,William Hartnell,True,False,http://en.wikipedia.org/wiki/The_Smugglers,False,28,False
+29,Doctor Who,4,29,The Tenth Planet,William Hartnell,True,True,http://en.wikipedia.org/wiki/The_Tenth_Planet,True,29,True
+30,Doctor Who,4,30,The Power of the Daleks,Patrick Troughton,True,True,http://en.wikipedia.org/wiki/The_Power_of_the_Daleks,False,30,True
+31,Doctor Who,4,31,The Highlanders,Patrick Troughton,True,False,http://en.wikipedia.org/wiki/The_Highlanders_(Doctor_Who),False,31,False
+32,Doctor Who,4,32,The Underwater Menace,Patrick Troughton,True,True,http://en.wikipedia.org/wiki/The_Underwater_Menace,False,32,True
+33,Doctor Who,4,33,The Moonbase,Patrick Troughton,True,True,http://en.wikipedia.org/wiki/The_Moonbase,False,33,True
+34,Doctor Who,4,34,The Macra Terror,Patrick Troughton,True,True,http://en.wikipedia.org/wiki/The_Macra_Terror,False,34,True
+35,Doctor Who,4,35,The Faceless Ones,Patrick Troughton,True,False,http://en.wikipedia.org/wiki/The_Faceless_Ones,False,35,True
+36,Doctor Who,4,36,The Evil of the Daleks,Patrick Troughton,True,True,http://en.wikipedia.org/wiki/The_Evil_of_the_Daleks,False,36,True
+37,Doctor Who,5,37,The Tomb of the Cybermen,Patrick Troughton,True,True,http://en.wikipedia.org/wiki/The_Tomb_of_the_Cybermen,False,37,True
+38,Doctor Who,5,38,The Abominable Snowmen,Patrick Troughton,True,False,http://en.wikipedia.org/wiki/The_Abominable_Snowmen,False,38,True
+39,Doctor Who,5,39,The Ice Warriors,Patrick Troughton,True,True,http://en.wikipedia.org/wiki/The_Ice_Warriors,False,39,True
+40,Doctor Who,5,40,The Enemy of the World,Patrick Troughton,True,True,http://en.wikipedia.org/wiki/The_Enemy_of_the_World,False,40,True
+41,Doctor Who,5,41,The Web of Fear,Patrick Troughton,True,True,http://en.wikipedia.org/wiki/The_Web_of_Fear,False,41,True
+42,Doctor Who,5,42,Fury from the Deep,Patrick Troughton,True,True,http://en.wikipedia.org/wiki/Fury_from_the_Deep,False,42,True
+43,Doctor Who,5,43,The Wheel in Space,Patrick Troughton,True,False,http://en.wikipedia.org/wiki/The_Wheel_in_Space,False,43,False
+44,Doctor Who,6,44,The Dominators,Patrick Troughton,True,True,http://en.wikipedia.org/wiki/The_Dominators,False,44,True
+45,Doctor Who,6,45,The Mind Robber,Patrick Troughton,True,True,http://en.wikipedia.org/wiki/The_Mind_Robber,False,45,True
+46,Doctor Who,6,46,The Invasion,Patrick Troughton,True,True,http://en.wikipedia.org/wiki/The_Invasion_(Doctor_Who),False,46,True
+47,Doctor Who,6,47,The Krotons,Patrick Troughton,True,True,http://en.wikipedia.org/wiki/The_Krotons,False,47,True
+48,Doctor Who,6,48,The Seeds of Death,Patrick Troughton,True,True,http://en.wikipedia.org/wiki/The_Seeds_of_Death,False,48,True
+49,Doctor Who,6,49,The Space Pirates,Patrick Troughton,True,False,http://en.wikipedia.org/wiki/The_Space_Pirates,False,49,False
+50,Doctor Who,6,50,The War Games,Patrick Troughton,True,True,http://en.wikipedia.org/wiki/The_War_Games,False,50,True
+51,Doctor Who,7,51,Spearhead from Space,Jon Pertwee,True,True,http://en.wikipedia.org/wiki/Spearhead_from_Space,False,51,True
+52,Doctor Who,7,52,Doctor Who and the Silurians,Jon Pertwee,True,False,http://en.wikipedia.org/wiki/Doctor_Who_and_the_Silurians,False,52,True
+53,Doctor Who,7,53,The Ambassadors of Death,Jon Pertwee,True,True,http://en.wikipedia.org/wiki/The_Ambassadors_of_Death,False,53,True
+54,Doctor Who,7,54,Inferno,Jon Pertwee,True,True,http://en.wikipedia.org/wiki/Inferno_(Doctor_Who),False,54,True
+55,Doctor Who,7,55,Terror of the Autons,Jon Pertwee,True,True,http://en.wikipedia.org/wiki/Terror_of_the_Autons,False,55,True
+56,Doctor Who,8,56,The Mind of Evil,Jon Pertwee,True,True,http://en.wikipedia.org/wiki/The_Mind_of_Evil,False,56,True
+57,Doctor Who,8,57,The Claws of Axos,Jon Pertwee,True,True,http://en.wikipedia.org/wiki/The_Claws_of_Axos,False,57,True
+58,Doctor Who,8,58,Colony in Space,Jon Pertwee,True,True,http://en.wikipedia.org/wiki/Colony_in_Space,False,58,True
+59,Doctor Who,8,59,The Daemons,Jon Pertwee,True,True,http://en.wikipedia.org/wiki/The_D%C3%A6mons,False,59,True
+60,Doctor Who,9,60,Day of the Daleks,Jon Pertwee,True,True,http://en.wikipedia.org/wiki/Day_of_the_Daleks,False,60,True
+61,Doctor Who,9,61,The Curse of Peladon,Jon Pertwee,True,True,http://en.wikipedia.org/wiki/The_Curse_of_Peladon,False,61,True
+62,Doctor Who,9,62,The Sea Devils,Jon Pertwee,True,False,http://en.wikipedia.org/wiki/The_Sea_Devils,False,62,True
+63,Doctor Who,9,63,The Mutants,Jon Pertwee,True,True,http://en.wikipedia.org/wiki/The_Mutants,False,63,True
+64,Doctor Who,9,64,The Time Monster,Jon Pertwee,True,True,http://en.wikipedia.org/wiki/The_Time_Monster,False,64,True
+65,Doctor Who,10,65,The Three Doctors,Jon Pertwee,True,True,https://en.wikipedia.org/wiki/The_Three_Doctors_(Doctor_Who),False,65,True
+66,Doctor Who,10,66,Carnival of Monsters,Jon Pertwee,True,True,http://en.wikipedia.org/wiki/Carnival_of_Monsters,False,66,True
+67,Doctor Who,10,67,Frontier in Space,Jon Pertwee,True,True,http://en.wikipedia.org/wiki/Frontier_in_Space,False,67,True
+68,Doctor Who,10,68,Planet of the Daleks,Jon Pertwee,True,True,http://en.wikipedia.org/wiki/Planet_of_the_Daleks,False,68,True
+69,Doctor Who,10,69,The Green Death,Jon Pertwee,True,True,http://en.wikipedia.org/wiki/The_Green_Death,False,69,True
+70,Doctor Who,11,70,The Time Warrior,Jon Pertwee,True,True,http://en.wikipedia.org/wiki/The_Time_Warrior,False,70,True
+71,Doctor Who,11,71,Invasion of the Dinosaurs,Jon Pertwee,True,True,https://en.wikipedia.org/wiki/Invasion_of_the_Dinosaurs,False,71,True
+72,Doctor Who,11,72,Death to the Daleks,Jon Pertwee,True,True,http://en.wikipedia.org/wiki/Death_to_the_Daleks,False,72,True
+73,Doctor Who,11,73,The Monster of Peladon,Jon Pertwee,True,True,http://en.wikipedia.org/wiki/The_Monster_of_Peladon,False,73,True
+74,Doctor Who,11,74,Planet of the Spiders,Jon Pertwee,True,True,http://en.wikipedia.org/wiki/Planet_of_the_Spiders,False,74,True
+75,Doctor Who,12,75,Robot,Tom Baker,True,True,http://en.wikipedia.org/wiki/Robot_(Doctor_Who),False,75,True
+76,Doctor Who,12,76,The Ark in Space,Tom Baker,True,True,http://en.wikipedia.org/wiki/The_Ark_in_Space,False,76,True
+77,Doctor Who,12,77,The Sontaran Experiment,Tom Baker,True,True,http://en.wikipedia.org/wiki/The_Sontaran_Experiment,False,77,True
+78,Doctor Who,12,78,Genesis of the Daleks,Tom Baker,True,True,http://en.wikipedia.org/wiki/Genesis_of_the_Daleks,False,78,True
+79,Doctor Who,12,79,Revenge of the Cybermen,Tom Baker,True,True,http://en.wikipedia.org/wiki/Revenge_of_the_Cybermen,False,79,True
+80,Doctor Who,13,80,Terror of the Zygons,Tom Baker,True,True,http://en.wikipedia.org/wiki/Terror_of_the_Zygons,False,80,True
+81,Doctor Who,13,81,Planet of Evil,Tom Baker,True,True,http://en.wikipedia.org/wiki/Planet_of_Evil,False,81,True
+82,Doctor Who,13,82,Pyramids of Mars,Tom Baker,True,True,http://en.wikipedia.org/wiki/Pyramids_of_Mars,False,82,True
+83,Doctor Who,13,83,The Android Invasion,Tom Baker,True,True,http://en.wikipedia.org/wiki/The_Android_Invasion,False,83,True
+84,Doctor Who,13,84,The Brain of Morbius,Tom Baker,True,True,http://en.wikipedia.org/wiki/The_Brain_of_Morbius,False,84,True
+85,Doctor Who,13,85,The Seeds of Doom,Tom Baker,True,True,http://en.wikipedia.org/wiki/The_Seeds_of_Doom,False,85,True
+86,Doctor Who,14,86,The Masque of Mandragora,Tom Baker,True,True,http://en.wikipedia.org/wiki/The_Masque_of_Mandragora,False,86,True
+87,Doctor Who,14,87,The Hand of Fear,Tom Baker,True,True,http://en.wikipedia.org/wiki/The_Hand_of_Fear,False,87,True
+88,Doctor Who,14,88,The Deadly Assassin,Tom Baker,True,True,http://en.wikipedia.org/wiki/The_Deadly_Assassin,False,88,True
+89,Doctor Who,14,89,The Face of Evil,Tom Baker,True,True,http://en.wikipedia.org/wiki/The_Face_of_Evil,False,89,True
+90,Doctor Who,14,90,The Robots of Death,Tom Baker,True,True,http://en.wikipedia.org/wiki/The_Robots_of_Death,False,90,True
+91,Doctor Who,14,91,The Talons of Weng-Chiang,Tom Baker,True,True,http://en.wikipedia.org/wiki/The_Talons_of_Weng-Chiang,False,91,True
+92,Doctor Who,15,92,Horror of Fang Rock,Tom Baker,True,True,http://en.wikipedia.org/wiki/Horror_of_Fang_Rock,False,92,True
+93,Doctor Who,15,93,The Invisible Enemy,Tom Baker,True,True,http://en.wikipedia.org/wiki/The_Invisible_Enemy_(Doctor_Who),False,93,True
+94,Doctor Who,15,94,Image of the Fendahl,Tom Baker,True,True,http://en.wikipedia.org/wiki/Image_of_the_Fendahl,False,94,True
+95,Doctor Who,15,95,The Sun Makers,Tom Baker,True,True,http://en.wikipedia.org/wiki/The_Sun_Makers,False,95,True
+96,Doctor Who,15,96,Underworld,Tom Baker,True,True,http://en.wikipedia.org/wiki/Underworld_(Doctor_Who),False,96,True
+97,Doctor Who,15,97,The Invasion of Time,Tom Baker,True,True,http://en.wikipedia.org/wiki/The_Invasion_of_Time,False,97,True
+98,Doctor Who,16,98,The Ribos Operation,Tom Baker,True,False,http://en.wikipedia.org/wiki/The_Ribos_Operation,False,98,True
+99,Doctor Who,16,99,The Pirate Planet,Tom Baker,True,False,http://en.wikipedia.org/wiki/The_Pirate_Planet,False,98,True
+100,Doctor Who,16,100,The Stones of Blood,Tom Baker,True,False,http://en.wikipedia.org/wiki/The_Stones_of_Blood,False,98,True
+101,Doctor Who,16,101,The Androids of Tara,Tom Baker,True,False,http://en.wikipedia.org/wiki/The_Androids_of_Tara,False,98,True
+102,Doctor Who,16,102,The Power of Kroll,Tom Baker,True,False,http://en.wikipedia.org/wiki/The_Power_of_Kroll,False,98,True
+103,Doctor Who,16,103,The Armageddon Factor,Tom Baker,True,False,http://en.wikipedia.org/wiki/The_Armageddon_Factor,False,98,True
+104,Doctor Who,17,104,Destiny of the Daleks,Tom Baker,True,True,http://en.wikipedia.org/wiki/Destiny_of_the_Daleks,False,104,True
+105,Doctor Who,17,105,City of Death,Tom Baker,True,True,http://en.wikipedia.org/wiki/City_of_Death,False,105,True
+106,Doctor Who,17,106,The Creature from the Pit,Tom Baker,True,True,http://en.wikipedia.org/wiki/The_Creature_from_the_Pit,False,106,True
+107,Doctor Who,17,107,Nightmare of Eden,Tom Baker,True,True,http://en.wikipedia.org/wiki/Nightmare_of_Eden,False,107,True
+108,Doctor Who,17,108a,The Horns of Nimon,Tom Baker,True,True,http://en.wikipedia.org/wiki/The_Horns_of_Nimon,False,108a,True
+109,Doctor Who,17,108b,Shada,Tom Baker,True,True,https://en.wikipedia.org/wiki/Shada_(Doctor_Who),False,108b,True
+110,Doctor Who,18,109,The Leisure Hive,Tom Baker,True,False,http://en.wikipedia.org/wiki/The_Leisure_Hive,False,109,True
+111,Doctor Who,18,110,Meglos,Tom Baker,True,True,http://en.wikipedia.org/wiki/Meglos,False,110,True
+112,Doctor Who,18,111,Full Circle,Tom Baker,True,False,http://en.wikipedia.org/wiki/Full_Circle_(Doctor_Who),False,111,True
+113,Doctor Who,18,112,State of Decay,Tom Baker,True,False,http://en.wikipedia.org/wiki/State_of_Decay,False,112,True
+114,Doctor Who,18,113,Warriors' Gate,Tom Baker,True,False,http://en.wikipedia.org/wiki/Warriors%27_Gate,False,113,True
+115,Doctor Who,18,114,The Keeper of Traken,Tom Baker,True,True,http://en.wikipedia.org/wiki/The_Keeper_of_Traken,False,114,True
+116,Doctor Who,18,115,Logopolis,Tom Baker,True,True,http://en.wikipedia.org/wiki/Logopolis,False,115,True
+117,Doctor Who,19,116,Castrovalva,Peter Davison,True,True,http://en.wikipedia.org/wiki/Castrovalva_(Doctor_Who),False,116,True
+118,Doctor Who,19,117,Four to Doomsday,Peter Davison,True,True,http://en.wikipedia.org/wiki/Four_to_Doomsday,False,117,True
+119,Doctor Who,19,118,Kinda,Peter Davison,True,True,http://en.wikipedia.org/wiki/Kinda_(Doctor_Who),False,118,True
+120,Doctor Who,19,119,The Visitation,Peter Davison,True,True,http://en.wikipedia.org/wiki/The_Visitation_(Doctor_Who),False,119,True
+121,Doctor Who,19,120,Black Orchid,Peter Davison,True,True,http://en.wikipedia.org/wiki/Black_Orchid_(Doctor_Who),False,120,True
+122,Doctor Who,19,121,Earthshock,Peter Davison,True,True,http://en.wikipedia.org/wiki/Earthshock,False,121,True
+123,Doctor Who,19,122,Time-Flight,Peter Davison,True,True,http://en.wikipedia.org/wiki/Time-Flight,False,122,True
+124,Doctor Who,20,123,Arc of Infinity,Peter Davison,True,True,http://en.wikipedia.org/wiki/Arc_of_Infinity,False,123,True
+125,Doctor Who,20,124,Snakedance,Peter Davison,True,True,http://en.wikipedia.org/wiki/Snakedance,False,124,True
+126,Doctor Who,20,125,Mawdryn Undead,Peter Davison,True,False,http://en.wikipedia.org/wiki/Mawdryn_Undead,False,125,True
+127,Doctor Who,20,126,Terminus,Peter Davison,True,False,http://en.wikipedia.org/wiki/Terminus_(Doctor_Who),False,126,True
+128,Doctor Who,20,127,Enlightenment,Peter Davison,True,False,http://en.wikipedia.org/wiki/Enlightenment_(Doctor_Who),False,127,True
+129,Doctor Who,20,128,The King's Demons,Peter Davison,True,False,http://en.wikipedia.org/wiki/The_King%27s_Demons,False,128,True
+130,Doctor Who,20,129,The Five Doctors,Peter Davison,True,True,https://en.wikipedia.org/wiki/The_Five_Doctors,False,129,True
+131,Doctor Who,21,130,Warriors of the Deep,Peter Davison,True,False,http://en.wikipedia.org/wiki/Warriors_of_the_Deep,False,130,True
+132,Doctor Who,21,131,The Awakening,Peter Davison,True,True,http://en.wikipedia.org/wiki/The_Awakening_(Doctor_Who),False,131,True
+133,Doctor Who,21,132,Frontios,Peter Davison,True,False,http://en.wikipedia.org/wiki/Frontios,False,132,True
+134,Doctor Who,21,133,Resurrection of the Daleks,Peter Davison,True,True,http://en.wikipedia.org/wiki/Resurrection_of_the_Daleks,False,133,True
+135,Doctor Who,21,134,Planet of Fire,Peter Davison,True,False,http://en.wikipedia.org/wiki/Planet_of_Fire,False,134,True
+136,Doctor Who,21,135,The Caves of Androzani,Peter Davison,True,False,http://en.wikipedia.org/wiki/The_Caves_of_Androzani,False,135,True
+137,Doctor Who,21,136,The Twin Dilemma,Colin Baker,True,False,http://en.wikipedia.org/wiki/The_Twin_Dilemma,False,136,True
+138,Doctor Who,22,137,Attack of the Cybermen,Colin Baker,True,True,http://en.wikipedia.org/wiki/Attack_of_the_Cybermen,False,137,True
+139,Doctor Who,22,138,Vengeance on Varos,Colin Baker,True,True,http://en.wikipedia.org/wiki/Vengeance_on_Varos,False,138,True
+140,Doctor Who,22,139,The Mark of the Rani,Colin Baker,True,False,http://en.wikipedia.org/wiki/The_Mark_of_the_Rani,False,139,True
+141,Doctor Who,22,140,The Two Doctors,Colin Baker,True,True,http://en.wikipedia.org/wiki/The_Two_Doctors,False,140,True
+142,Doctor Who,22,141,Timelash,Colin Baker,True,False,http://en.wikipedia.org/wiki/Timelash,False,141,True
+143,Doctor Who,22,142,Revelation of the Daleks,Colin Baker,True,True,http://en.wikipedia.org/wiki/Revelation_of_the_Daleks,False,142,True
+144,Doctor Who,23,143a,The Mysterious Planet - Episodes 1-4,Colin Baker,True,True,http://en.wikipedia.org/wiki/The_Mysterious_Planet,False,143a,True
+145,Doctor Who,23,143b,Mindwarp - Episodes 5-8,Colin Baker,True,True,http://en.wikipedia.org/wiki/Mindwarp,False,143b,True
+146,Doctor Who,23,143c,Terror of the Vervoids - Episodes 9-12,Colin Baker,True,True,http://en.wikipedia.org/wiki/Terror_of_the_Vervoids,False,143c,True
+147,Doctor Who,23,143d,The Ultimate Foe - Episodes 13-14,Colin Baker,True,True,http://en.wikipedia.org/wiki/The_Ultimate_Foe,False,143d,True
+148,Doctor Who,24,144,Time and the Rani,Sylvester McCoy,True,True,http://en.wikipedia.org/wiki/Time_and_the_Rani,False,144,True
+149,Doctor Who,24,145,Paradise Towers,Sylvester McCoy,True,False,http://en.wikipedia.org/wiki/Paradise_Towers,False,145,True
+150,Doctor Who,24,146,Delta and the Bannermen,Sylvester McCoy,True,False,http://en.wikipedia.org/wiki/Delta_and_the_Bannermen,False,146,True
+151,Doctor Who,24,147,Dragonfire,Sylvester McCoy,True,True,http://en.wikipedia.org/wiki/Dragonfire_(Doctor_Who),False,147,True
+152,Doctor Who,25,148,Remembrance of the Daleks,Sylvester McCoy,True,True,http://en.wikipedia.org/wiki/Remembrance_of_the_Daleks,False,148,True
+153,Doctor Who,25,149,The Happiness Patrol,Sylvester McCoy,True,True,http://en.wikipedia.org/wiki/The_Happiness_Patrol,False,149,True
+154,Doctor Who,25,150,Silver Nemesis,Sylvester McCoy,True,True,http://en.wikipedia.org/wiki/Silver_Nemesis,False,150,True
+155,Doctor Who,25,151,The Greatest Show in the Galaxy,Sylvester McCoy,True,False,http://en.wikipedia.org/wiki/The_Greatest_Show_in_the_Galaxy,False,151,True
+156,Doctor Who,26,152,Battlefield,Sylvester McCoy,True,True,http://en.wikipedia.org/wiki/Battlefield_(Doctor_Who),False,152,True
+157,Doctor Who,26,153,Ghost Light,Sylvester McCoy,True,False,http://en.wikipedia.org/wiki/Ghost_Light_(Doctor_Who),False,153,True
+158,Doctor Who,26,154,The Curse of Fenric,Sylvester McCoy,True,True,http://en.wikipedia.org/wiki/The_Curse_of_Fenric,False,154,True
+159,Doctor Who,26,155,Survival,Sylvester McCoy,True,True,http://en.wikipedia.org/wiki/Survival_(Doctor_Who),False,155,True
+160,Doctor Who,27,156,Doctor Who,Paul McGann,True,True,http://en.wikipedia.org/wiki/Doctor_Who_(1996_film),False,156,True
+161,Doctor Who,28,157,Rose,Christopher Eccleston,False,True,http://en.wikipedia.org/wiki/Rose_(Doctor_Who),False,157,True
+162,Doctor Who,28,158,The End of the World,Christopher Eccleston,False,True,http://en.wikipedia.org/wiki/The_End_of_the_World_(Doctor_Who),False,157,True
+163,Doctor Who,28,159,The Unquiet Dead,Christopher Eccleston,False,True,http://en.wikipedia.org/wiki/The_Unquiet_Dead,False,157,True
+164,Doctor Who,28,160a,Aliens of London,Christopher Eccleston,False,True,http://en.wikipedia.org/wiki/Aliens_of_London,False,160,True
+165,Doctor Who,28,160b,World War Three,Christopher Eccleston,False,True,http://en.wikipedia.org/wiki/World_War_Three_(Doctor_Who),False,160,True
+166,Doctor Who,28,161,Dalek,Christopher Eccleston,False,True,http://en.wikipedia.org/wiki/Dalek_(Doctor_Who_episode),False,160,True
+167,Doctor Who,28,162,The Long Game,Christopher Eccleston,False,True,http://en.wikipedia.org/wiki/The_Long_Game,False,162,True
+168,Doctor Who,28,163,Father's Day,Christopher Eccleston,False,True,http://en.wikipedia.org/wiki/Father%27s_Day_(Doctor_Who),False,162,True
+169,Doctor Who,28,164a,The Empty Child,Christopher Eccleston,False,True,http://en.wikipedia.org/wiki/The_Empty_Child,False,162,True
+170,Doctor Who,28,164b,The Doctor Dances,Christopher Eccleston,False,True,http://en.wikipedia.org/wiki/The_Doctor_Dances,False,162,True
+171,Doctor Who,28,165,Boom Town,Christopher Eccleston,False,True,http://en.wikipedia.org/wiki/Boom_Town_(Doctor_Who),False,165,True
+172,Doctor Who,28,166a,Bad Wolf,Christopher Eccleston,False,True,http://en.wikipedia.org/wiki/Bad_Wolf,False,165,True
+173,Doctor Who,28,166b,The Parting of the Ways,Christopher Eccleston,False,True,http://en.wikipedia.org/wiki/The_Parting_of_the_Ways,False,165,True
+174,Doctor Who,28,167,The Christmas Invasion,David Tennant,False,True,http://en.wikipedia.org/wiki/The_Christmas_Invasion,False,167,True
+175,Doctor Who,29,168,New Earth,David Tennant,False,True,http://en.wikipedia.org/wiki/New_Earth,False,167,True
+176,Doctor Who,29,169,Tooth and Claw,David Tennant,False,True,http://en.wikipedia.org/wiki/Tooth_and_Claw_(Doctor_Who),False,169,True
+177,Doctor Who,29,170,School Reunion,David Tennant,False,True,http://en.wikipedia.org/wiki/School_Reunion_(Doctor_Who),False,169,True
+178,Doctor Who,29,171,The Girl in the Fireplace,David Tennant,False,True,http://en.wikipedia.org/wiki/The_Girl_in_the_Fireplace,False,169,True
+179,Doctor Who,29,172a,Rise of the Cybermen,David Tennant,False,True,http://en.wikipedia.org/wiki/Rise_of_the_Cybermen,False,172,True
+180,Doctor Who,29,172b,The Age of Steel,David Tennant,False,True,http://en.wikipedia.org/wiki/The_Age_of_Steel,False,172,True
+181,Doctor Who,29,173,The Idiot's Lantern,David Tennant,False,True,http://en.wikipedia.org/wiki/The_Idiot%27s_Lantern,False,172,True
+182,Doctor Who,29,174a,The Impossible Planet,David Tennant,False,True,http://en.wikipedia.org/wiki/The_Impossible_Planet,False,174,True
+183,Doctor Who,29,174b,The Satan Pit,David Tennant,False,True,http://en.wikipedia.org/wiki/The_Satan_Pit,False,174,True
+184,Doctor Who,29,175,Love & Monsters,David Tennant,False,True,http://en.wikipedia.org/wiki/Love_%26_Monsters,False,174,True
+185,Doctor Who,29,176,Fear Her,David Tennant,False,True,http://en.wikipedia.org/wiki/Fear_Her,False,176,True
+186,Doctor Who,29,177a,Army of Ghosts,David Tennant,False,True,http://en.wikipedia.org/wiki/Army_of_Ghosts,False,176,True
+187,Doctor Who,29,177b,Doomsday,David Tennant,False,True,http://en.wikipedia.org/wiki/Doomsday_(Doctor_Who),False,176,True
+188,Doctor Who,29,178,The Runaway Bride,David Tennant,False,True,http://en.wikipedia.org/wiki/The_Runaway_Bride_(Doctor_Who),False,178,True
+189,Doctor Who,30,179,Smith and Jones,David Tennant,False,True,http://en.wikipedia.org/wiki/Smith_and_Jones_(Doctor_Who),False,178,True
+190,Doctor Who,30,180,The Shakespeare Code,David Tennant,False,True,http://en.wikipedia.org/wiki/The_Shakespeare_Code,False,178,True
+191,Doctor Who,30,181,Gridlock,David Tennant,False,True,http://en.wikipedia.org/wiki/Gridlock_(Doctor_Who),False,178,True
+192,Doctor Who,30,182a,Daleks in Manhattan,David Tennant,False,True,http://en.wikipedia.org/wiki/Daleks_in_Manhattan,False,178,True
+193,Doctor Who,30,182b,Evolution of the Daleks,David Tennant,False,True,http://en.wikipedia.org/wiki/Evolution_of_the_Daleks,False,178,True
+194,Doctor Who,30,183,The Lazarus Experiment,David Tennant,False,True,http://en.wikipedia.org/wiki/The_Lazarus_Experiment,False,178,True
+195,Doctor Who,30,184,42,David Tennant,False,True,http://en.wikipedia.org/wiki/42_(Doctor_Who),False,178,True
+196,Doctor Who,30,185a,Human Nature,David Tennant,False,True,http://en.wikipedia.org/wiki/Human_Nature_(Doctor_Who_episode),False,178,True
+197,Doctor Who,30,185b,The Family of Blood,David Tennant,False,True,http://en.wikipedia.org/wiki/The_Family_of_Blood,False,178,True
+198,Doctor Who,30,186,Blink,David Tennant,False,True,http://en.wikipedia.org/wiki/Blink_(Doctor_Who),False,178,True
+199,Doctor Who,30,187a,Utopia,David Tennant,False,True,http://en.wikipedia.org/wiki/Utopia_(Doctor_Who),False,178,True
+200,Doctor Who,30,187b,The Sound of Drums,David Tennant,False,True,http://en.wikipedia.org/wiki/The_Sound_of_Drums,False,178,True
+201,Doctor Who,30,187c,Last of the Time Lords,David Tennant,False,True,http://en.wikipedia.org/wiki/Last_of_the_Time_Lords,False,178,True
+202,Doctor Who,30,188a,Voyage of the Damned,David Tennant,False,True,http://en.wikipedia.org/wiki/Voyage_of_the_Damned_(Doctor_Who),False,188,True
+203,Doctor Who,30,188b,Time Crash,David Tennant,False,True,http://en.wikipedia.org/wiki/Time_Crash,False,188,True
+204,Doctor Who,31,189,Partners in Crime,David Tennant,False,True,http://en.wikipedia.org/wiki/Partners_in_Crime_(Doctor_Who),False,188,True
+205,Doctor Who,31,190,The Fires of Pompeii,David Tennant,False,True,http://en.wikipedia.org/wiki/The_Fires_of_Pompeii,False,188,True
+206,Doctor Who,31,191,Planet of the Ood,David Tennant,False,True,http://en.wikipedia.org/wiki/Planet_of_the_Ood,False,188,True
+207,Doctor Who,31,192a,The Sontaran Stratagem,David Tennant,False,True,http://en.wikipedia.org/wiki/The_Sontaran_Stratagem,False,188,True
+208,Doctor Who,31,192b,The Poison Sky,David Tennant,False,True,http://en.wikipedia.org/wiki/The_Poison_Sky,False,188,True
+209,Doctor Who,31,193,The Doctor's Daughter,David Tennant,False,True,http://en.wikipedia.org/wiki/The_Doctor%27s_Daughter,False,188,True
+210,Doctor Who,31,194,The Unicorn and the Wasp,David Tennant,False,True,http://en.wikipedia.org/wiki/The_Unicorn_and_the_Wasp,False,188,True
+211,Doctor Who,31,195a,Silence in the Library,David Tennant,False,True,http://en.wikipedia.org/wiki/Silence_in_the_Library,False,188,True
+212,Doctor Who,31,195b,Forest of the Dead,David Tennant,False,True,http://en.wikipedia.org/wiki/Forest_of_the_Dead,False,188,True
+213,Doctor Who,31,196,Midnight,David Tennant,False,True,http://en.wikipedia.org/wiki/Midnight_(Doctor_Who),False,188,True
+214,Doctor Who,31,197,Turn Left,David Tennant,False,True,http://en.wikipedia.org/wiki/Turn_Left_(Doctor_Who),False,188,True
+215,Doctor Who,31,198a,The Stolen Earth,David Tennant,False,True,http://en.wikipedia.org/wiki/The_Stolen_Earth,False,188,True
+216,Doctor Who,31,198b,Journey's End,David Tennant,False,True,http://en.wikipedia.org/wiki/Journey%27s_End_(Doctor_Who),False,188,True
+217,Doctor Who,31,199,The Next Doctor,David Tennant,False,False,http://en.wikipedia.org/wiki/The_Next_Doctor,False,199,True
+218,Doctor Who,31,200,Planet of the Dead,David Tennant,False,False,http://en.wikipedia.org/wiki/Planet_of_the_Dead,False,199,True
+219,Doctor Who,31,201,The Waters of Mars,David Tennant,False,False,http://en.wikipedia.org/wiki/The_Waters_of_Mars,False,199,True
+220,Doctor Who,31,202a,The End of Time - Part 1,David Tennant,False,False,http://en.wikipedia.org/wiki/The_End_of_Time,False,199,True
+221,Doctor Who,31,202b,The End of Time - Part 2,David Tennant,False,False,http://en.wikipedia.org/wiki/The_End_of_Time,False,199,True
+222,Doctor Who,32,203,The Eleventh Hour,Matt Smith,False,True,http://en.wikipedia.org/wiki/The_Eleventh_Hour_(Doctor_Who),False,203,True
+223,Doctor Who,32,204,The Beast Below,Matt Smith,False,True,http://en.wikipedia.org/wiki/The_Beast_Below,False,203,True
+224,Doctor Who,32,205,Victory of the Daleks,Matt Smith,False,True,http://en.wikipedia.org/wiki/Victory_of_the_Daleks,False,203,True
+225,Doctor Who,32,206a,The Time of Angels,Matt Smith,False,True,http://en.wikipedia.org/wiki/The_Time_of_Angels,False,203,True
+226,Doctor Who,32,206b,Flesh and Stone,Matt Smith,False,True,http://en.wikipedia.org/wiki/Flesh_and_Stone,False,203,True
+227,Doctor Who,32,207,The Vampires of Venice,Matt Smith,False,True,http://en.wikipedia.org/wiki/The_Vampires_of_Venice,False,203,True
+228,Doctor Who,32,208,Amy's Choice,Matt Smith,False,True,http://en.wikipedia.org/wiki/Amy%27s_Choice_(Doctor_Who),False,203,True
+229,Doctor Who,32,209a,The Hungry Earth,Matt Smith,False,True,http://en.wikipedia.org/wiki/The_Hungry_Earth,False,203,True
+230,Doctor Who,32,209b,Cold Blood,Matt Smith,False,True,http://en.wikipedia.org/wiki/Cold_Blood_(Doctor_Who),False,203,True
+231,Doctor Who,32,210,Vincent and the Doctor,Matt Smith,False,True,http://en.wikipedia.org/wiki/Vincent_and_the_Doctor,False,203,True
+232,Doctor Who,32,211,The Lodger,Matt Smith,False,True,http://en.wikipedia.org/wiki/The_Lodger_(Doctor_Who),False,203,True
+233,Doctor Who,32,212a,The Pandorica Opens,Matt Smith,False,True,http://en.wikipedia.org/wiki/The_Pandorica_Opens,True,203,True
+234,Doctor Who,32,212b,The Big Bang,Matt Smith,False,True,http://en.wikipedia.org/wiki/The_Big_Bang_(Doctor_Who),False,203,True
+235,Doctor Who,32,213,A Christmas Carol,Matt Smith,False,True,http://en.wikipedia.org/wiki/A_Christmas_Carol_(Doctor_Who),True,213,True
+236,Doctor Who,33,214a,The Impossible Astronaut,Matt Smith,False,True,http://en.wikipedia.org/wiki/The_Impossible_Astronaut,False,213,True
+237,Doctor Who,33,214b,Day of the Moon,Matt Smith,False,True,http://en.wikipedia.org/wiki/Day_of_the_Moon,False,213,True
+238,Doctor Who,33,215,The Curse of the Black Spot,Matt Smith,False,True,http://en.wikipedia.org/wiki/The_Curse_of_the_Black_Spot,False,213,True
+239,Doctor Who,33,216,The Doctor's Wife,Matt Smith,False,True,http://en.wikipedia.org/wiki/The_Doctor%27s_Wife,False,213,True
+240,Doctor Who,33,217a,The Rebel Flesh,Matt Smith,False,True,http://en.wikipedia.org/wiki/The_Rebel_Flesh,False,213,True
+241,Doctor Who,33,217b,The Almost People,Matt Smith,False,True,http://en.wikipedia.org/wiki/The_Almost_People,False,213,True
+242,Doctor Who,33,218,A Good Man Goes to War,Matt Smith,False,True,http://en.wikipedia.org/wiki/A_Good_Man_Goes_to_War,False,213,True
+243,Doctor Who,33,219,Let's Kill Hitler,Matt Smith,False,True,http://en.wikipedia.org/wiki/Let%27s_Kill_Hitler,False,213,True
+244,Doctor Who,33,220,Night Terrors,Matt Smith,False,True,http://en.wikipedia.org/wiki/Night_Terrors_(Doctor_Who),False,213,True
+245,Doctor Who,33,221,The Girl Who Waited,Matt Smith,False,True,http://en.wikipedia.org/wiki/The_Girl_Who_Waited,False,213,True
+246,Doctor Who,33,222,The God Complex,Matt Smith,False,True,http://en.wikipedia.org/wiki/The_God_Complex,False,213,True
+247,Doctor Who,33,223,Closing Time,Matt Smith,False,True,http://en.wikipedia.org/wiki/Closing_Time_(Doctor_Who),False,213,True
+248,Doctor Who,33,224,The Wedding of River Song,Matt Smith,False,True,http://en.wikipedia.org/wiki/The_Wedding_of_River_Song,False,213,True
+249,Doctor Who,33,225,"The Doctor, the Widow and the Wardrobe",Matt Smith,False,True,"http://en.wikipedia.org/wiki/The_Doctor,_the_Widow_and_the_Wardrobe",False,225,True
+250,Doctor Who,34,226,Asylum of the Daleks,Matt Smith,False,True,http://en.wikipedia.org/wiki/Asylum_of_the_Daleks,False,225,True
+251,Doctor Who,34,227,Dinosaurs on a Spaceship,Matt Smith,False,True,http://en.wikipedia.org/wiki/Dinosaurs_on_a_Spaceship,False,225,True
+252,Doctor Who,34,228,A Town Called Mercy,Matt Smith,False,True,http://en.wikipedia.org/wiki/A_Town_Called_Mercy,False,225,True
+253,Doctor Who,34,229,The Power of Three,Matt Smith,False,True,http://en.wikipedia.org/wiki/The_Power_of_Three_(Doctor_Who),False,225,True
+254,Doctor Who,34,230,The Angels Take Manhattan,Matt Smith,False,True,http://en.wikipedia.org/wiki/The_Angels_Take_Manhattan,False,225,True
+255,Doctor Who,34,231,The Snowmen,Matt Smith,False,True,http://en.wikipedia.org/wiki/The_Snowmen,False,225,True
+256,Doctor Who,34,232,The Bells of Saint John,Matt Smith,False,True,http://en.wikipedia.org/wiki/The_Bells_of_Saint_John,False,225,True
+257,Doctor Who,34,233,The Rings of Akhaten,Matt Smith,False,True,http://en.wikipedia.org/wiki/The_Rings_of_Akhaten,False,225,True
+258,Doctor Who,34,234,Cold War,Matt Smith,False,True,http://en.wikipedia.org/wiki/Cold_War_(Doctor_Who),False,225,True
+259,Doctor Who,34,235,Hide,Matt Smith,False,True,http://en.wikipedia.org/wiki/Hide_(Doctor_Who),False,225,True
+260,Doctor Who,34,236,Journey to the Centre of the TARDIS,Matt Smith,False,True,http://en.wikipedia.org/wiki/Journey_to_the_Centre_of_the_TARDIS,False,225,True
+261,Doctor Who,34,237,The Crimson Horror,Matt Smith,False,True,http://en.wikipedia.org/wiki/The_Crimson_Horror,False,225,True
+262,Doctor Who,34,238,Nightmare in Silver,Matt Smith,False,True,http://en.wikipedia.org/wiki/Nightmare_in_Silver,False,225,True
+263,Doctor Who,34,239,The Name of the Doctor,Matt Smith,False,True,http://en.wikipedia.org/wiki/The_Name_of_the_Doctor,False,225,True
+264,Doctor Who,34,240,The Day of the Doctor,Matt Smith,False,True,https://en.wikipedia.org/wiki/The_Day_of_the_Doctor,False,240,True
+265,Doctor Who,34,241,The Time of the Doctor,Matt Smith,False,False,http://en.wikipedia.org/wiki/2013_Christmas_special_(Doctor_Who),False,241,True
+266,Doctor Who,35,242,Deep Breath,Peter Capaldi,False,True,https://en.wikipedia.org/wiki/Deep_Breath_(Doctor_Who),False,242,True
+267,Doctor Who,35,243,Into the Dalek,Peter Capaldi,False,True,https://en.wikipedia.org/wiki/Into_the_Dalek,False,242,True
+268,Doctor Who,35,244,Robot of Sherwood,Peter Capaldi,False,True,https://en.wikipedia.org/wiki/Robot_of_Sherwood,False,242,True
+269,Doctor Who,35,245,Listen,Peter Capaldi,False,True,https://en.wikipedia.org/wiki/Listen_(Doctor_Who),False,242,True
+270,Doctor Who,35,246,Time Heist,Peter Capaldi,False,True,https://en.wikipedia.org/wiki/Time_Heist,False,242,True
+271,Doctor Who,35,247,The Caretaker,Peter Capaldi,False,True,https://en.wikipedia.org/wiki/The_Caretaker_(Doctor_Who),False,242,True
+272,Doctor Who,35,248,Kill the Moon,Peter Capaldi,False,True,https://en.wikipedia.org/wiki/Kill_the_Moon,False,242,True
+273,Doctor Who,35,249,Mummy on the Orient Express,Peter Capaldi,False,True,https://en.wikipedia.org/wiki/Mummy_on_the_Orient_Express,False,242,True
+274,Doctor Who,35,250,Flatline,Peter Capaldi,False,True,https://en.wikipedia.org/wiki/Flatline_(Doctor_Who),False,242,True
+275,Doctor Who,35,251,In the Forest of the Night,Peter Capaldi,False,True,https://en.wikipedia.org/wiki/In_the_Forest_of_the_Night,False,242,True
+276,Doctor Who,35,252a,Dark Water,Peter Capaldi,False,True,https://en.wikipedia.org/wiki/Dark_Water_(Doctor_Who),False,242,True
+277,Doctor Who,35,252b,Death in Heaven,Peter Capaldi,False,True,https://en.wikipedia.org/wiki/Death_in_Heaven,False,242,True
+278,Doctor Who,35,253,Last Christmas,Peter Capaldi,False,True,https://en.wikipedia.org/wiki/Last_Christmas_(Doctor_Who),False,253,True
+279,Doctor Who,36,254a,The Magician's Apprentice,Peter Capaldi,False,True,https://en.wikipedia.org/wiki/The_Magician%27s_Apprentice_(Doctor_Who),False,253,True
+280,Doctor Who,36,254b,The Witch's Familiar,Peter Capaldi,False,True,https://en.wikipedia.org/wiki/The_Witch%27s_Familiar,False,253,True
+281,Doctor Who,36,255a,Under the Lake,Peter Capaldi,False,True,https://en.wikipedia.org/wiki/Under_the_Lake,False,253,True
+282,Doctor Who,36,255b,Before the Flood,Peter Capaldi,False,True,https://en.wikipedia.org/wiki/Before_the_Flood_(Doctor_Who),False,253,True
+283,Doctor Who,36,256,The Girl Who Died,Peter Capaldi,False,True,https://en.wikipedia.org/wiki/The_Girl_Who_Died,False,253,True
+284,Doctor Who,36,257,The Woman Who Lived,Peter Capaldi,False,True,https://en.wikipedia.org/wiki/The_Woman_Who_Lived,False,253,True
+285,Doctor Who,36,258a,The Zygon Invasion,Peter Capaldi,False,True,https://en.wikipedia.org/wiki/The_Zygon_Invasion,False,253,True
+286,Doctor Who,36,258b,The Zygon Inversion,Peter Capaldi,False,True,https://en.wikipedia.org/wiki/The_Zygon_Inversion,False,253,True
+287,Doctor Who,36,259,Sleep No More,Peter Capaldi,False,True,https://en.wikipedia.org/wiki/Sleep_No_More_(Doctor_Who),False,253,True
+288,Doctor Who,36,260,Face the Raven,Peter Capaldi,False,True,https://en.wikipedia.org/wiki/Face_the_Raven,False,253,True
+289,Doctor Who,36,261,Heaven Sent,Peter Capaldi,False,True,https://en.wikipedia.org/wiki/Heaven_Sent_(Doctor_Who),False,253,True
+290,Doctor Who,36,262,Hell Bent,Peter Capaldi,False,True,https://en.wikipedia.org/wiki/Hell_Bent_(Doctor_Who),False,253,True
+291,Doctor Who,36,263,The Husbands of River Song,Peter Capaldi,False,True,https://en.wikipedia.org/wiki/The_Husbands_of_River_Song,False,253,True
+292,Doctor Who,36,264,The Return of Doctor Mysterio,Peter Capaldi,False,True,https://en.wikipedia.org/wiki/The_Return_of_Doctor_Mysterio,False,264,True
+293,Doctor Who,37,265,The Pilot,Peter Capaldi,False,True,https://en.wikipedia.org/wiki/The_Pilot_(Doctor_Who),False,264,True
+294,Doctor Who,37,266,Smile,Peter Capaldi,False,True,https://en.wikipedia.org/wiki/Smile_(Doctor_Who),False,264,True
+295,Doctor Who,37,267,Thin Ice,Peter Capaldi,False,True,https://en.wikipedia.org/wiki/Thin_Ice_(Doctor_Who),False,264,True
+296,Doctor Who,37,268,Knock Knock,Peter Capaldi,False,True,https://en.wikipedia.org/wiki/Knock_Knock_(Doctor_Who),False,264,True
+297,Doctor Who,37,269,Oxygen,Peter Capaldi,False,True,https://en.wikipedia.org/wiki/Oxygen_(Doctor_Who),False,264,True
+298,Doctor Who,37,270,Extremis,Peter Capaldi,False,True,https://en.wikipedia.org/wiki/Extremis_(Doctor_Who),False,264,True
+299,Doctor Who,37,271,The Pyramid at the End of the World,Peter Capaldi,False,True,https://en.wikipedia.org/wiki/The_Pyramid_at_the_End_of_the_World,False,264,True
+300,Doctor Who,37,272,The Lie of the Land,Peter Capaldi,False,True,https://en.wikipedia.org/wiki/The_Lie_of_the_Land,False,264,True
+301,Doctor Who,37,273,Empress of Mars,Peter Capaldi,False,True,https://en.wikipedia.org/wiki/Empress_of_Mars,False,264,True
+302,Doctor Who,37,274,The Eaters of Light,Peter Capaldi,False,True,https://en.wikipedia.org/wiki/The_Eaters_of_Light,False,264,True
+303,Doctor Who,37,275a,World Enough and Time,Peter Capaldi,False,True,https://en.wikipedia.org/wiki/World_Enough_and_Time_(Doctor_Who),False,264,True
+304,Doctor Who,37,275b,The Doctor Falls,Peter Capaldi,False,True,https://en.wikipedia.org/wiki/The_Doctor_Falls,False,264,True
+305,Doctor Who,37,276,Twice Upon a Time,Peter Capaldi,False,True,https://en.wikipedia.org/wiki/Twice_Upon_a_Time_(Doctor_Who),False,276,True
+306,Doctor Who,38,277,The Woman Who Fell to Earth,Jodie Whittaker,False,True,https://en.wikipedia.org/wiki/The_Woman_Who_Fell_to_Earth,False,277,True
+307,Doctor Who,38,278,The Ghost Monument,Jodie Whittaker,False,True,https://en.wikipedia.org/wiki/The_Ghost_Monument,False,277,True
+308,Doctor Who,38,279,Rosa,Jodie Whittaker,False,True,https://en.wikipedia.org/wiki/Rosa_(Doctor_Who),False,277,True
+309,Doctor Who,38,280,Arachnids in the UK,Jodie Whittaker,False,True,https://en.wikipedia.org/wiki/Arachnids_in_the_UK,False,277,True
+310,Doctor Who,38,281,The Tsuranga Conundrum,Jodie Whittaker,False,True,https://en.wikipedia.org/wiki/The_Tsuranga_Conundrum,False,277,True
+311,Doctor Who,38,282,Demons of the Punjab,Jodie Whittaker,False,True,https://en.wikipedia.org/wiki/Demons_of_the_Punjab,False,277,True
+312,Doctor Who,38,283,Kerblam!,Jodie Whittaker,False,True,https://en.wikipedia.org/wiki/Kerblam!,False,277,True
+313,Doctor Who,38,284,The Witchfinders,Jodie Whittaker,False,True,https://en.wikipedia.org/wiki/The_Witchfinders,False,277,True
+314,Doctor Who,38,285,It Takes You Away,Jodie Whittaker,False,True,https://en.wikipedia.org/wiki/It_Takes_You_Away,False,277,True
+315,Doctor Who,38,286,The Battle of Ranskoor Av Kolos,Jodie Whittaker,False,True,https://en.wikipedia.org/wiki/The_Battle_of_Ranskoor_Av_Kolos,False,277,True
+316,Doctor Who,38,287,Resolution,Jodie Whittaker,False,False,https://en.wikipedia.org/wiki/Resolution_(Doctor_Who),False,287,True
+317,Doctor Who,39,288a,"Spyfall, Part 1",Jodie Whittaker,False,False,https://en.wikipedia.org/wiki/Spyfall_(Doctor_Who),False,288,True
+318,Doctor Who,39,288b,"Spyfall, Part 2",Jodie Whittaker,False,False,https://en.wikipedia.org/wiki/Spyfall_(Doctor_Who),False,288,True
+319,Doctor Who,39,289,Orphan 55,Jodie Whittaker,False,False,https://en.wikipedia.org/wiki/Orphan_55,False,288,True
+320,Doctor Who,39,290,Nikola Teslas Night of Terror,Jodie Whittaker,False,False,https://en.wikipedia.org/wiki/Nikola_Tesla%27s_Night_of_Terror,False,288,True
+321,Doctor Who,39,291,Fugitive of the Judoon,Jodie Whittaker,False,False,https://en.wikipedia.org/wiki/Fugitive_of_the_Judoon,False,288,True
+322,Doctor Who,39,292,Preaxeus,Jodie Whittaker,False,False,https://en.wikipedia.org/wiki/Praxeus,False,288,True
+323,Doctor Who,39,293,Can You Hear Me,Jodie Whittaker,False,False,https://en.wikipedia.org/wiki/Can_You_Hear_Me%3F_(Doctor_Who),False,288,True
+324,Doctor Who,39,294,The Haunting of Villa Diodati,Jodie Whittaker,False,False,https://en.wikipedia.org/wiki/The_Haunting_of_Villa_Diodati,False,288,True
+325,Doctor Who,39,295a,Acension of the Cybermen,Jodie Whittaker,False,False,https://en.wikipedia.org/wiki/Ascension_of_the_Cybermen,False,288,True
+326,Doctor Who,39,295b,The Timeless Children,Jodie Whittaker,False,False,https://en.wikipedia.org/wiki/The_Timeless_Children,False,288,True
+327,Doctor Who,39,296,Revolution of the Daleks,Jodie Whittaker,False,False,https://en.wikipedia.org/wiki/Revolution_of_the_Daleks,False,296,True
+328,Doctor Who,40,297a,The Halloween Apocalypse,Jodie Whittaker,False,False,https://en.wikipedia.org/wiki/The_Halloween_Apocalypse,False,297,True
+329,Doctor Who,40,297b,War of the Sontarans,Jodie Whittaker,False,False,https://en.wikipedia.org/wiki/War_of_the_Sontarans,False,297,True
+330,Doctor Who,40,297c,"Once, Upon Time",Jodie Whittaker,False,False,"https://en.wikipedia.org/wiki/Once,_Upon_Time",False,297,True
+331,Doctor Who,40,297d,Village of he Angels,Jodie Whittaker,False,False,https://en.wikipedia.org/wiki/Village_of_the_Angels,False,297,True
+332,Doctor Who,40,297e,Survivors of the Flux,Jodie Whittaker,False,False,https://en.wikipedia.org/wiki/Survivors_of_the_Flux,False,297,True
+333,Doctor Who,40,297f,The Vanquishers,Jodie Whittaker,False,False,https://en.wikipedia.org/wiki/The_Vanquishers,False,297,True
+334,Doctor Who,40,298,Eve of the Daleks,Jodie Whittaker,False,False,https://en.wikipedia.org/wiki/Eve_of_the_Daleks,False,298,True
+335,Doctor Who,40,299,Legend of the Sea Devils,Jodie Whittaker,False,False,https://en.wikipedia.org/wiki/Legend_of_the_Sea_Devils,False,298,True
+336,Doctor Who,40,300,The Power of the Doctor,Jodie Whittaker,False,False,https://en.wikipedia.org/wiki/The_Power_of_the_Doctor,False,300,True
+337,Doctor Who,40,301,The Star Beast,David Tennant,False,False,https://en.wikipedia.org/wiki/The_Star_Beast_(Doctor_Who_episode),False,301,True
+338,Doctor Who,40,302,Wild Blue Yonder,David Tennant,False,False,https://en.wikipedia.org/wiki/Wild_Blue_Yonder_(Doctor_Who),False,301,True
+339,Doctor Who,40,303,The Giggle,David Tennant,False,False,https://en.wikipedia.org/wiki/The_Giggle,False,301,True
+340,Doctor Who,41,304,The Church on Ruby Road,Nciti Gatwa,False,False,https://en.wikipedia.org/wiki/The_Church_on_Ruby_Road,False,304,True
+341,Doctor Who,41,305,Space Babies,Nciti Gatwa,False,False,https://en.wikipedia.org/wiki/Space_Babies,False,305,True
+342,Doctor Who,41,306,The Devils Chord,Nciti Gatwa,False,False,https://en.wikipedia.org/wiki/The_Devil%27s_Chord,False,305,True
+343,Doctor Who,41,307,Boom,Nciti Gatwa,False,False,https://en.wikipedia.org/wiki/Boom_(Doctor_Who),False,305,True
+344,Doctor Who,41,308,73 Yards,Nciti Gatwa,False,False,https://en.wikipedia.org/wiki/73_Yards,False,305,True
+345,Doctor Who,41,309,Dot and Bubble,Nciti Gatwa,False,False,https://en.wikipedia.org/wiki/Dot_and_Bubble,False,305,True
+346,Doctor Who,41,310,Rogue,Nciti Gatwa,False,False,https://en.wikipedia.org/wiki/Rogue_(Doctor_Who),False,305,True
+347,Doctor Who,41,311a,The Legend of Ruby Sunday,Nciti Gatwa,False,False,https://en.wikipedia.org/wiki/The_Legend_of_Ruby_Sunday,False,305,True
+348,Doctor Who,41,311b,Empire of Death,Nciti Gatwa,False,False,https://en.wikipedia.org/wiki/Empire_of_Death_(Doctor_Who_episode),False,305,True
+349,Doctor Who,42,312,Joy to the World,Nciti Gatwa,False,False,https://en.wikipedia.org/wiki/Joy_to_the_World_(Doctor_Who),False,,True
+350,Doctor Who,42,313,The Robot Revolution,Nciti Gatwa,False,False,https://en.wikipedia.org/wiki/The_Robot_Revolution,False,,True
+351,Doctor Who,42,314,Lux,Nciti Gatwa,False,False,,False,,True
+352,Doctor Who,42,315,The Well,Nciti Gatwa,False,False,,False,,True
+353,Doctor Who,42,316,Lucky Day,Nciti Gatwa,False,False,,False,,True
+354,Doctor Who,42,317,The Story & the Engine,Nciti Gatwa,False,False,,False,,True
+355,Doctor Who,42,318,The Interstellar Song Contest,Nciti Gatwa,False,False,,False,,True
+356,Doctor Who,42,319a,Wish World,Nciti Gatwa,False,False,,False,,True
+357,Doctor Who,42,319b,The Reality War,Nciti Gatwa,False,False,,False,,True

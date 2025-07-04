@@ -38,12 +38,8 @@ def path_comic_cover(scope, series_name, volume_number, issue_number):
 	return path_comic_image
 
 
-
-def path_dvd_cover(scope, idx):
-	logging.debug(f"path_dvd_cover {idx=}")
-	file_name = str(idx) + '.jpg'
-
+def path_dvd_cover(scope, cover_number):
+	logging.debug(f"path_dvd_cover {cover_number=}")
+	file_name = str(cover_number) + '.jpg'
 	path_comic_image = pathlib.Path.home().joinpath( scope.folder_dvd_covers, file_name )
-
 	return path_comic_image
-

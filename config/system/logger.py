@@ -1,55 +1,68 @@
 import logging
 
 
+# logging Colours
+white 		= "\033[0m"
+grey 		= '\033[90m'
+yellow 		= '\033[93m'
+green		= "\033[92m"
+purple		= "\033[95m"
+red			= '\033[91m'
+blue        = "\033[94m"
+reset 		= white
+cyan		= "\033[96m"
+blink		= "\033[5m"
+
 
 def set_logging_config(to_terminal=True):
 
 	logging.basicConfig(
-		level=int(5),
-		# format="%(asctime)s [%(threadName)-12.12s] [%(levelname)-7.7s]  %(message)s",
-		format="%(levelname)-4s > %(message)s",
-		handlers=[
-			logging.FileHandler('zz_log_file.log'),
-			logging.StreamHandler()
-			]
-	)
+						level		= int(5),
+						# format	= "%(levelname)-4s > %(message)s",
+						# format	= "%(asctime)s [%(threadName)-12.12s] [%(levelname)-7.7s]  %(message)s",
+						format		="%(levelname)s > %(message)s",
+						handlers	= [
+										logging.FileHandler("zz_log_file.log"),
+										logging.StreamHandler(),
+										]
+						)
 	# Custom Logging Levels
-	logging.addLevelName(5, 'PARTIAL')
-	logging.partial = partial					# 5 Streamlit repetitive tasks
-	logging.Logger.partial = partial
-	logging.addLevelName(15, 'COMMON')			# 15 python commonly run key code
-	logging.common = common					
-	logging.Logger.common = common
-	logging.addLevelName(25, 'RENDER')
-	logging.render = render					# 21 Streamlit Main Pagers (Controllers / Routers)
-	logging.Logger.render = render
-	logging.addLevelName(35, 'CORE')
-	logging.core = core						# 31 python core functions (Controllers)
-	logging.Logger.core = core
+	logging.addLevelName(5, grey 	+ "TRACE   " 	+ reset) # 5 Python Code
+	logging.trace = trace						
+	logging.Logger.trace = trace
+	logging.addLevelName(10, cyan 	+ "DEBUG   " 	+ reset)
+	logging.addLevelName(20, yellow + "INFO    " 	+ reset)
+	logging.addLevelName(25, green 	+ "SUCCESS " 	+ reset) # 21 Streamlit Main Pagers (Controllers / Routers)
+	logging.success = success					
+	logging.Logger.render = success
+	logging.addLevelName(30, purple + "WARNING "	+ reset)
+	logging.addLevelName(40, red	+ "ERROR   "	+ reset)
+	# logging.addLevelName(50, blue 	+ "CRITICAL"	+ reset)
+	logging.addLevelName(50, blink 	+ "CRITICAL"	+ reset)
 
-	# Initial Log and important messages
-	
-	logging.core("set_logging_config")
+
+	logging.success("set_logging_config instantiated")
+
+	logging.trace("TRACE")
+	logging.debug("debug")
+	logging.info("info")
+	logging.success("success")
+	logging.warning("warning")
+	logging.error("error")
+	logging.critical("critical")
 
 
 # Custom Logging Level Functions (called above during initialisation)
 
-def partial(msg, *args, **kwargs):
+def trace(msg, *args, **kwargs):
 	if logging.getLogger().isEnabledFor(5):
 		logging.log(5, msg)
 
-def common(msg, *args, **kwargs):
-	if logging.getLogger().isEnabledFor(5):
-		logging.log(15, msg)
-
-
-def render(msg, *args, **kwargs):
+def success(msg, *args, **kwargs):
 	if logging.getLogger().isEnabledFor(21):
 		logging.log(25, msg)
 
-def core(msg, *args, **kwargs):
-	if logging.getLogger().isEnabledFor(31):
-		logging.log(35, msg)
+
 
 
 
