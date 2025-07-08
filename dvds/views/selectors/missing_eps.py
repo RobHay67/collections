@@ -5,7 +5,7 @@ from dvds.scope.scope_page_covers import scope_dvd_covers_for_page
 
 
 def button_missing_dvd_eps_only(scope):
-	logging.partial(f"button_missing_dvd_eps_only")
+	logging.trace(f"button_missing_dvd_eps_only")
 	widget_label = 'dvd_missing_eps_button'
 
 	if scope.dvds_selected_missing_eps_only == True:

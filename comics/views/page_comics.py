@@ -8,7 +8,7 @@ from comics.views.render_comic import render_comic
 scope = st.session_state
 page = 'comics'
 scope.display_page = page
-logging.render(f"NAVIGATE {page=}")
+logging.success(f"NAVIGATE {page=}")
 
 st.title('Comic Collection')
 

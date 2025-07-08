@@ -14,7 +14,7 @@ from dvds.views.render_dvd import render_dvd
 scope = st.session_state
 page = 'dvds'
 scope.display_page = page
-logging.render(f"NAVIGATE {page=}")
+logging.success(f"NAVIGATE {page=}")
 
 
 st.title('DVD Collection')

@@ -8,7 +8,7 @@ from dvds.views.selectors.missing_eps import button_missing_dvd_eps_only
 
 
 def page_header_dvds(scope):
-	logging.partial(f"render_dvd_header")
+	logging.trace(f"render_dvd_header")
 	
 	# The Numbers
 	total_to_collect = len(scope.dvds_page_df)

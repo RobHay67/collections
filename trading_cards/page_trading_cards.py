@@ -9,7 +9,7 @@ import streamlit as st
 scope = st.session_state
 page = 'trading_cards'
 scope.display_page = page
-logging.render(f"NAVIGATE {page=}")
+logging.success(f"NAVIGATE {page=}")
 
 
 st.title('Trading Cards')

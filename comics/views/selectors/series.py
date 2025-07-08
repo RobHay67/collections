@@ -4,7 +4,7 @@ from comics.scope.scope_page_df import scope_comic_df_for_page
 from comics.scope.scope_page_covers import scope_comic_covers_for_page
 
 def selectbox_series(scope):
-	logging.partial(f"selectbox_series")
+	logging.trace(f"selectbox_series")
 	widget_key = 'widget_selectbox_series'
 	previous_selection = scope.comics_selected_series
 	

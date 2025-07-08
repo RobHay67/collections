@@ -3,7 +3,7 @@ import streamlit as st
 
 
 def checkbox_watched(scope, index_no, previous_selection):
-	logging.partial(f"checkbox_watched {index_no=} {previous_selection=}")
+	logging.trace(f"checkbox_watched {index_no=} {previous_selection=}")
 	widget_key = 'widget_checkbox_watched_' + str(index_no)
 
 	st.checkbox(

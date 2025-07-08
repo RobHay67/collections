@@ -6,7 +6,7 @@ from dvds.scope.scope_page_covers import scope_dvd_covers_for_page
 
 
 def selectbox_which_doctor(scope):
-	logging.partial(f"selectbox_which_doctor")
+	logging.trace(f"selectbox_which_doctor")
 	widget_key = 'widget_which_doctor'
 	
 	previous_selection = scope.dvds_selected_doctor

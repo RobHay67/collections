@@ -5,7 +5,7 @@ from dvds.views.watched import checkbox_watched
 
 
 def render_dvd(scope, dvd_index_list, count):
-	logging.partial(f"render_dvd {count=}")
+	logging.trace(f"render_dvd {count=}")
 
 	if count < len(dvd_index_list):
 		index_no = dvd_index_list[count]

@@ -5,7 +5,7 @@ from comics.views.selectors.missing_eps import button_missing_comics_only
 from comics.views.button_save import button_save_comics
 
 def page_header_comics(scope):
-	logging.partial(f"page_header_comics")
+	logging.trace(f"page_header_comics")
 
 	if len(scope.comics_page_df) > 0:
 		no_collected = scope.comics_page_df['collected'].sum()

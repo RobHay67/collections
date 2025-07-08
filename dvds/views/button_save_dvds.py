@@ -7,7 +7,7 @@ from dvds.model.save import save_dvd_file
 
 
 def button_save_dvds(scope):
-	logging.partial(f"dvd_save_button")
+	logging.trace(f"dvd_save_button")
 	st.button(
 		label='Save Changes to DVDs File', 
 		key='widget_save_dvds',

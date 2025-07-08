@@ -3,7 +3,7 @@ import streamlit as st
 
 
 def collected_comic_checkbox(scope, index_no, collected):
-	logging.partial(f"collected_comic_checkbox {index_no=} {collected=}")
+	logging.trace(f"collected_comic_checkbox {index_no=} {collected=}")
 	widget_key = 'widget_comic_collected_' + str(index_no)
 
 	st.checkbox(

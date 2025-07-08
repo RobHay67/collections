@@ -5,7 +5,7 @@ from dvds.scope.scope_page_covers import scope_dvd_covers_for_page
 
 
 def selectbox_dvd_season(scope):
-	logging.partial(f"selectbox_dvd_season")
+	logging.trace(f"selectbox_dvd_season")
 	widget_key = 'widget_dvd_season'
 	previous_selection = scope.dvds_selected_season
 

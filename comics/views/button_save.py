@@ -5,7 +5,7 @@ from comics.model.save import save_comic_file
 
 
 def button_save_comics(scope):
-	logging.partial(f"button_save_comics")
+	logging.trace("button_save_comics")
 
 	st.button(
 		label='Save Changes to Comics File', 
@@ -17,5 +17,5 @@ def button_save_comics(scope):
 
 
 def clicked_save_comics_button(scope):
-	logging.warning(f"clicked_save_button")
+	logging.warning("clicked_save_button")
 	save_comic_file(scope)

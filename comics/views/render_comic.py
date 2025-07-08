@@ -4,7 +4,7 @@ from comics.views.collected import collected_comic_checkbox
 
 
 def render_comic(scope, comic_index_list, count):
-	logging.partial(f"render_comic {count=}")
+	logging.trace(f"render_comic {count=}")
 
 	if count < len(comic_index_list):
 		index_no = comic_index_list[count]

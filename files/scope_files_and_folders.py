@@ -6,7 +6,7 @@ import streamlit as st
 #TODO - replace pathlib with OS
 
 def scope_file_locations(scope):
-	logging.warning(f"scope_file_locations")
+	logging.warning("scope_file_locations")
 	scope.folder_project = pathlib.Path(__file__).parent.parent.resolve()
 	scope.folder_files = pathlib.Path.home().joinpath( scope.folder_project, 'files' )
 
@@ -28,7 +28,7 @@ def scope_file_locations(scope):
 
 
 def path_comic_cover(scope, series_name, volume_number, issue_number):
-	logging.debug(f"path_comic_cover {series_name=} {volume_number=} {issue_number=}")
+	logging.trace(f"path_comic_cover {series_name=} {volume_number=} {issue_number=}")
 	series_name = series_name.replace(' ', '_')
 
 	file_name = series_name + '_Vol_' + str(volume_number) + '_' + str(issue_number) + '.jpg'
@@ -39,7 +39,7 @@ def path_comic_cover(scope, series_name, volume_number, issue_number):
 
 
 def path_dvd_cover(scope, cover_number):
-	logging.debug(f"path_dvd_cover {cover_number=}")
+	logging.trace(f"path_dvd_cover {cover_number=}")
 	file_name = str(cover_number) + '.jpg'
 	path_comic_image = pathlib.Path.home().joinpath( scope.folder_dvd_covers, file_name )
 	return path_comic_image

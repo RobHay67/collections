@@ -5,7 +5,7 @@ from comics.scope.scope_page_covers import scope_comic_covers_for_page
 
 
 def button_missing_comics_only(scope):
-	logging.partial(f"button_missing_comics_only")
+	logging.trace(f"button_missing_comics_only")
 	widget_label = 'comics_missing_eps_button'
 
 	if scope.comics_selected_missing_only == True:

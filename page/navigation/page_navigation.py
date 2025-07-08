@@ -3,7 +3,7 @@ import streamlit as st
 
 
 def sidebar_navigation(scope):
-	logging.core("sidebar_navigation")
+	logging.warning("sidebar_navigation")
 	home_page = st.Page(
 		page="page/page_home.py",
 		title="Home",

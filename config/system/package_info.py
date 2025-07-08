@@ -9,7 +9,7 @@ import pandas
 
 
 def terminal_out_package_info():
-	logging.core("terminal_out_package_info")
+	logging.warning("terminal_out_package_info")
 	print ( '\033[91m')
 	print('='*100)
 	print ( 'EXPECTED Python Verion  = 3.13.0')
