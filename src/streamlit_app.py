@@ -1,12 +1,11 @@
 # ------------------------------------------------- Application
-# activate venv			> source venv/bin/activate
-# run application		> uv run streamlit run streamlit_app.py
+# activate .venv		> source .venv/bin/activate
 # run application		> uv run streamlit run src/streamlit_app.py
 # --------------------------------------------------------------------- 
 # streamlit name		> robhay67-collections-home-3ou9ku
-# run application		> streamlit run streamlit_app.py
+# git repo				> https://robhay67-collections-home-ge86ye.streamlit.app/dvds
 # --------------------------------------------------------------------- 
-# https://robhay67-collections-home-ge86ye.streamlit.app/dvds
+
 
 import streamlit as st
 from config.system.logger import set_logging_config
