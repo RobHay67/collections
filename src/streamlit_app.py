@@ -1,6 +1,7 @@
 # ------------------------------------------------- Application
 # activate venv			> source venv/bin/activate
 # run application		> uv run streamlit run streamlit_app.py
+# run application		> uv run streamlit run src/streamlit_app.py
 # --------------------------------------------------------------------- 
 # streamlit name		> robhay67-collections-home-3ou9ku
 # run application		> streamlit run streamlit_app.py

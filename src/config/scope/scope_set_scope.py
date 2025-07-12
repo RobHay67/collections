@@ -6,7 +6,7 @@ from dvds.scope.scope_dvds import scope_dvds
 
 
 def set_scope(scope):
-	logging.warning(f"set_scope")
+	logging.warning("set_scope")
 	set_streamlit_page_config()					# should only run onetime
 
 	if 'folder_project' not in scope:

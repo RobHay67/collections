@@ -3,7 +3,7 @@ from comics.model.load_file import load_comic_file
 
 
 def scope_comics(scope):
-	logging.warning(f"scope_comics")
+	logging.warning("scope_comics")
 
 	scope.comics_file = load_comic_file(scope)
 	scope.comics_list_of_series = list(scope.comics_file['series'].unique())
