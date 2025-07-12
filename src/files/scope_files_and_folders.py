@@ -1,27 +1,29 @@
 import logging
 import os
 import pathlib
-import streamlit as st
+# import streamlit as st
 
 #TODO - replace pathlib with OS
 
 def scope_file_locations(scope):
 	logging.warning("scope_file_locations")
-	scope.folder_project = pathlib.Path(__file__).parent.parent.resolve()
-	scope.folder_files = pathlib.Path.home().joinpath( scope.folder_project, 'files' )
+	scope.folder_project = pathlib.Path(__file__).parent.parent.parent.resolve()
+	scope.folder_data = pathlib.Path.home().joinpath( scope.folder_project, 'data' )
 
-	scope.folder_comic_covers = pathlib.Path.home().joinpath( scope.folder_files, 'comic_covers' )
-	scope.folder_dvd_covers = pathlib.Path.home().joinpath( scope.folder_files, 'dvd_covers' )
-	
-	if not os.path.isdir( scope.folder_files ) 	 	  	: os.makedirs( scope.folder_files )
-	if not os.path.isdir( scope.folder_comic_covers ) 	: os.makedirs( scope.folder_comic_covers )
-	if not os.path.isdir( scope.folder_dvd_covers ) 	: os.makedirs( scope.folder_dvd_covers )
+	scope.folder_comic_covers = pathlib.Path.home().joinpath( scope.folder_data, 'comic_covers' )
+	scope.folder_dvd_covers = pathlib.Path.home().joinpath( scope.folder_data, 'dvd_covers' )
 
+	if not os.path.isdir( scope.folder_data ):
+		os.makedirs( scope.folder_data )
+	if not os.path.isdir( scope.folder_comic_covers ):
+		os.makedirs( scope.folder_comic_covers )
+	if not os.path.isdir( scope.folder_dvd_covers ):
+		os.makedirs( scope.folder_dvd_covers )
 
 	# File Paths
-	scope.file_path_comics = pathlib.Path.home().joinpath( scope.folder_files, 'comics.csv' )
-	# scope.path_cards_file  = pathlib.Path.home().joinpath( scope.folder_files, 'cards.csv' )
-	scope.file_path_dvds   = pathlib.Path.home().joinpath( scope.folder_files, 'dvds.csv' )
+	scope.file_path_comics = pathlib.Path.home().joinpath( scope.folder_data, 'comics.csv' )
+	# scope.path_cards_file  = pathlib.Path.home().joinpath( scope.folder_data, 'cards.csv' )
+	scope.file_path_dvds   = pathlib.Path.home().joinpath( scope.folder_data, 'dvds.csv' )
 
 	scope.file_path_dvds_missing_cover = pathlib.Path.home().joinpath( scope.folder_dvd_covers, 'x.jpg' )
 
