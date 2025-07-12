@@ -37,3 +37,7 @@ if __name__ == "__main__":
 
 	terminal_out_scope_keys('streamlit_app')
 
+# streamlit
+# pandas
+
+# watchdog
