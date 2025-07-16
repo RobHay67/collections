@@ -1,8 +1,8 @@
 import logging
 import streamlit as st
-from comics.views.selectors.series import selectbox_series
-from comics.views.buttons.missing_eps import button_missing_comics_only
-from comics.views.buttons.save import button_save_comics
+from comics.views.widgets.series import selectbox_series
+from comics.views.widgets.missing_eps import button_missing_comics_only
+from comics.views.widgets.save import button_save_comics
 
 from comics.model import Comic
 

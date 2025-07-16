@@ -2,7 +2,7 @@ import logging
 import streamlit as st
 
 from comics.model import Comic
-from comics.views.collected import collected_comic_checkbox
+from comics.views.widgets.collected import collected_comic_checkbox
 
 
 def render_comic(scope, list_pos):
