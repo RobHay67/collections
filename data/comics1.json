@@ -1,0 +1,22 @@
+[
+    {
+        "index": 1,
+        "series": "Star Wars",
+        "volume": null,
+        "issue_no": null,
+        "title": "The Wheel of Death",
+        "collected": "unknown condition",
+        "value": 0.0,
+        "notes": null
+    },
+    {
+        "index": 2,
+        "series": "Star Wars",
+        "volume": null,
+        "issue_no": null,
+        "title": "Return of the Jedi",
+        "collected": "unknown condition",
+        "value": 0.0,
+        "notes": null
+    }
+]

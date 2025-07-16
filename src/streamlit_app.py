@@ -1,6 +1,7 @@
 # ------------------------------------------------- Application
 # activate .venv		> source .venv/bin/activate
 # run application		> uv run streamlit run src/streamlit_app.py
+# test object creation	> uv run src/comics/objects.py
 # --------------------------------------------------------------------- 
 # streamlit name		> robhay67-collections-home-3ou9ku
 # git repo				> https://robhay67-collections-home-ge86ye.streamlit.app/dvds
@@ -36,6 +37,21 @@ if __name__ == "__main__":
 	page_navigation.run()
 
 	terminal_out_scope_keys('streamlit_app')
+
+	# print("-"*77)
+	# print("_list_of_comics")
+	# # obj = Comic._list_of_comics[78]
+	# obj = Comic._list_of_comics
+	# print(obj)
+
+	# print("-"*77)
+	# print("list_of_comic_indexes_for_page")
+	# for object in Comic.list_of_comic_indexes_for_page:
+	# 	print(object)
+
+	# comic = Comic.get_by_index(78)
+	# print(comic)
+
 
 # streamlit
 # pandas

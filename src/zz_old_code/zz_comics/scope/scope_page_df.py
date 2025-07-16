@@ -2,8 +2,8 @@ import logging
 
 
 def scope_comic_df_for_page(scope):
-	series = scope.comics_selected_series
-	missing_only = scope.comics_selected_missing_only
+	series 			= scope.comics_selected_series
+	missing_only 	= scope.comics_selected_missing_only
 	logging.warning(f"create_comic_df {series=} {missing_only=}")
 	
 	# Filter for Series
@@ -11,7 +11,7 @@ def scope_comic_df_for_page(scope):
 	comics_page_df = comic_df[comic_df['series'] == series]
 
 	# Filter to missing eps only if requested
-	if missing_only == True:
+	if missing_only:
 		# Show only DVDs that HAVE NOT been collected (missing episodes)
 		comics_page_df = comics_page_df[comics_page_df['collected'] == False]
 

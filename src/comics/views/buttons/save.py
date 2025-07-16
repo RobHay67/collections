@@ -1,7 +1,6 @@
 import logging
 import streamlit as st
-
-from comics.model.save import save_comic_file
+from comics.model import Comic
 
 
 def button_save_comics(scope):
@@ -18,4 +17,4 @@ def button_save_comics(scope):
 
 def clicked_save_comics_button(scope):
 	logging.warning("clicked_save_button")
-	save_comic_file(scope)
+	Comic.save_comics()

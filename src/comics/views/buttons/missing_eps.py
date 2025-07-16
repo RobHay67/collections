@@ -1,14 +1,14 @@
 import logging
 import streamlit as st
-from comics.scope.scope_page_df import scope_comic_df_for_page
-from comics.scope.scope_page_covers import scope_comic_covers_for_page
+from comics.model import Comic
 
 
 def button_missing_comics_only(scope):
-	logging.trace(f"button_missing_comics_only")
+	logging.trace("button_missing_comics_only")
 	widget_label = 'comics_missing_eps_button'
 
-	if scope.comics_selected_missing_only == True:
+	if Comic.selected_missing_only:
+	# if scope.comics_selected_missing_only == True:
 		button_type = "primary"
 		button_label = "Show All Comics"
 	else :
@@ -27,11 +27,10 @@ def button_missing_comics_only(scope):
 
 def change_show_missing_comics(scope, widget_label):
 	logging.warning(f"change_show_missing_comics {widget_label=}")
-	if scope.comics_selected_missing_only == True:
-		scope.comics_selected_missing_only = False
+	if Comic.selected_missing_only:
+		Comic.selected_missing_only = False
 	else:
-		scope.comics_selected_missing_only = True
+		Comic.selected_missing_only = True
 
 	# Update Page Data
-	scope.comics_page_df = scope_comic_df_for_page(scope)
-	scope.comics_page_covers = scope_comic_covers_for_page(scope)
+	Comic.create_page_comics()

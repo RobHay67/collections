@@ -17,7 +17,7 @@ blink		= "\033[5m"
 def set_logging_config(to_terminal=True):
 
 	logging.basicConfig(
-						level		= int(5),
+						level		= int(25),
 						# format	= "%(levelname)-4s > %(message)s",
 						# format	= "%(asctime)s [%(threadName)-12.12s] [%(levelname)-7.7s]  %(message)s",
 						format		="%(levelname)s > %(message)s",

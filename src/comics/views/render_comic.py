@@ -1,25 +1,20 @@
 import logging
 import streamlit as st
+
+from comics.model import Comic
 from comics.views.collected import collected_comic_checkbox
 
 
-def render_comic(scope, comic_index_list, count):
-	logging.trace(f"render_comic {count=}")
+def render_comic(scope, list_pos):
+	logging.trace(f"render_comic {list_pos=}")
+	
+	if list_pos < Comic.page_qty:
+		comic		= Comic.page_comics[list_pos]
+		comic_cover = Comic.page_covers[list_pos]
+		index_no	= comic.index
 
-	if count < len(comic_index_list):
-		index_no = comic_index_list[count]
-
-		issue_no = str(scope.comics_page_df._get_value(index_no, 'issue_no'))
-		title = str(scope.comics_page_df._get_value(index_no, 'title'))
-		note = str(scope.comics_page_df._get_value(index_no, 'notes'))
-		collected = scope.comics_page_df._get_value(index_no, 'collected')
-		if title == 'nan': title = 'Missing Title for this Issue'
-		comic_cover = scope.comics_page_covers[index_no]
-
-		st.header(issue_no)
-		collected_comic_checkbox(scope, index_no, collected)
-		st.image(comic_cover, caption=title)
-		if note != 'nan':st.caption(note)
-
-
-
+		st.header(comic.issue_no)
+		collected_comic_checkbox(comic, index_no)
+		st.image(comic_cover, caption=comic.title)
+		if comic.notes is not None:
+			st.caption(comic.notes)
