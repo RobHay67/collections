@@ -1,5 +1,5 @@
 
-# uv run src/comics/rob.py
+# uv run src/comics/testing.py
 
 # from comics.model import Comic
 
@@ -9,6 +9,7 @@
 # from comics.model import Comic
 
 from model import Comic
+# from model import Dvd
 
 
 # try:
@@ -29,28 +30,31 @@ def testing_header(test_name):
 
 
 
-testing_header("Load JSON objects")
+testing_header("Load Comics JSON objects")
 Comic.load_comics()
 
-
-
-
-testing_header("Test Access to Class Variabless")
-print(Comic.series_list)
-print(Comic.selected_series)
-print(Comic.selected_missing_only)
-print(Comic._path_comic_covers)
-print(Comic._pathc_comics_json)
-
-testing_header("Test create_list_of_comic_indexes_for_page")
-Comic.selected_series = "Star Wars"
-Comic.selected_missing_only = False
-Comic.create_page_comics()
-print(Comic.series_list)
 print(Comic.unique_identifiers)
-print(Comic.page_qty)
-print(Comic.page_qty_missing)
-print(Comic.page_qty_collected)
+
+# testing_header("Load Dvds JSON objects")
+# Dvd.load_dvds()
+
+
+# testing_header("Test Access to Class Variabless")
+# print(Comic.series_list)
+# print(Comic.selected_series)
+# print(Comic.selected_missing_only)
+# print(Comic._path_comic_covers)
+# print(Comic._pathc_comics_json)
+
+# testing_header("Test create_list_of_comic_indexes_for_page")
+# Comic.selected_series = "Star Wars"
+# Comic.selected_missing_only = False
+# Comic.create_page_comics()
+# print(Comic.series_list)
+# print(Comic.unique_identifiers)
+# print(Comic.page_qty)
+# print(Comic.page_qty_missing)
+# print(Comic.page_qty_collected)
 
 # testing_header("test Manual Creation of Comic Object")
 # comic_1 = Comic(index=113, series="Star Wars", title="The Wheel of Death")

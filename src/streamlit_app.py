@@ -14,7 +14,7 @@ from config.system.log_instructions import log_instructions
 from config.system.package_info import terminal_out_package_info
 from config.system.re_render import app_is_re_rendering
 from config.scope.scope_set_scope import set_scope
-from page.navigation.page_navigation import sidebar_navigation
+from page.navigation import sidebar_navigation
 from config.system.scope_keys import terminal_out_scope_keys
 
 
@@ -30,7 +30,7 @@ if __name__ == "__main__":
 	# optional debugging info
 	app_is_re_rendering()
 	
-	if 'config' not in scope:
+	if 'display_page' not in scope:
 		set_scope(scope)
 
 	page_navigation = sidebar_navigation(scope)
@@ -38,22 +38,3 @@ if __name__ == "__main__":
 
 	terminal_out_scope_keys('streamlit_app')
 
-	# print("-"*77)
-	# print("_list_of_comics")
-	# # obj = Comic._list_of_comics[78]
-	# obj = Comic._list_of_comics
-	# print(obj)
-
-	# print("-"*77)
-	# print("list_of_comic_indexes_for_page")
-	# for object in Comic.list_of_comic_indexes_for_page:
-	# 	print(object)
-
-	# comic = Comic.get_by_index(78)
-	# print(comic)
-
-
-# streamlit
-# pandas
-
-# watchdog

@@ -3,11 +3,13 @@ import os
 from PIL import Image
 from files.scope_files_and_folders import path_dvd_cover
 
+from dvds.model import Dvd
+
 
 def scope_dvd_covers_for_page(scope):
 	logging.warning("scope_dvd_covers_for_page")
 	dvd_covers = {}
-	missing_cover_image = image = Image.open(scope.file_path_dvds_missing_cover)
+	missing_cover_image = image = Image.open(Dvd._path_dvds_covers_missing)
 
 	for index, row in scope.dvds_page_df.iterrows():
 		cover_number = row['cover']

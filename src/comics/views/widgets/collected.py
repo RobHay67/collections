@@ -4,7 +4,7 @@ import streamlit as st
 from comics.model import Comic
 
 def collected_comic_checkbox(comic, index_no):
-	logging.trace("collected_comic_checkbox")
+	logging.trace(f"collected_comic_checkbox {index_no}")
 	widget_key 	= 'widget_comic_collected_' + str(index_no)
 	
 	# comic 		= Comic.get_by_index(index_no)

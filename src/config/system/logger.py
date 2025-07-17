@@ -43,13 +43,13 @@ def set_logging_config(to_terminal=True):
 
 	logging.success("set_logging_config instantiated")
 
-	logging.trace("TRACE")
-	logging.debug("debug")
-	logging.info("info")
-	logging.success("success")
-	logging.warning("warning")
-	logging.error("error")
-	logging.critical("critical")
+	# logging.trace("TRACE")
+	# logging.debug("debug")
+	# logging.info("info")
+	# logging.success("success")
+	# logging.warning("warning")
+	# logging.error("error")
+	# logging.critical("critical")
 
 
 # Custom Logging Level Functions (called above during initialisation)

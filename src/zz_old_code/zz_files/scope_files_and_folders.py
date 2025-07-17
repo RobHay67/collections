@@ -11,21 +11,21 @@ def scope_file_locations(scope):
 	scope.folder_data = pathlib.Path.home().joinpath( scope.folder_project, 'data' )
 
 	# scope.folder_comic_covers = pathlib.Path.home().joinpath( scope.folder_data, 'comic_covers' )
-	scope.folder_dvd_covers = pathlib.Path.home().joinpath( scope.folder_data, 'dvd_covers' )
+	# scope.folder_dvd_covers = pathlib.Path.home().joinpath( scope.folder_data, 'dvd_covers' )
 
-	if not os.path.isdir( scope.folder_data ):
-		os.makedirs( scope.folder_data )
+	# if not os.path.isdir( scope.folder_data ):
+	# 	os.makedirs( scope.folder_data )
 	# if not os.path.isdir( scope.folder_comic_covers ):
 	# 	os.makedirs( scope.folder_comic_covers )
-	if not os.path.isdir( scope.folder_dvd_covers ):
-		os.makedirs( scope.folder_dvd_covers )
+	# if not os.path.isdir( scope.folder_dvd_covers ):
+	# 	os.makedirs( scope.folder_dvd_covers )
 
 	# File Paths
 	# scope.file_path_comics = pathlib.Path.home().joinpath( scope.folder_data, 'comics.csv' )
 	# scope.path_cards_file  = pathlib.Path.home().joinpath( scope.folder_data, 'cards.csv' )
-	scope.file_path_dvds   = pathlib.Path.home().joinpath( scope.folder_data, 'dvds.csv' )
+	# scope.file_path_dvds   = pathlib.Path.home().joinpath( scope.folder_data, 'dvds.csv' )
 
-	scope.file_path_dvds_missing_cover = pathlib.Path.home().joinpath( scope.folder_dvd_covers, 'x.jpg' )
+	# scope.file_path_dvds_missing_cover = pathlib.Path.home().joinpath( scope.folder_dvd_covers, 'x.jpg' )
 
 
 

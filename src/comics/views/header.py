@@ -1,10 +1,10 @@
 import logging
 import streamlit as st
+from comics.model import Comic
 from comics.views.widgets.series import selectbox_series
 from comics.views.widgets.missing_eps import button_missing_comics_only
 from comics.views.widgets.save import button_save_comics
 
-from comics.model import Comic
 
 def page_header_comics(scope):
 	logging.trace("page_header_comics")

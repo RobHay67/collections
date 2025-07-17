@@ -1,35 +1,27 @@
 import logging
 import streamlit as st
-from dvds.views.collected import checkbox_collected
-from dvds.views.watched import checkbox_watched
+from dvds.model import Dvd
+from dvds.views.widgets.available import checkbox_available
+from dvds.views.widgets.collected import checkbox_collected
+from dvds.views.widgets.watched import checkbox_watched
 
 
-def render_dvd(scope, dvd_index_list, count):
-	logging.trace(f"render_dvd {count=}")
 
-	if count < len(dvd_index_list):
-		index_no = dvd_index_list[count]
-		logging.debug(f"{index_no=}")
-		season_no = str(scope.dvds_page_df._get_value(index_no, 'season'))
-		story_no = str(scope.dvds_page_df._get_value(index_no, 'story'))
-		title = str(scope.dvds_page_df._get_value(index_no, 'title'))
-		url = str(scope.dvds_page_df._get_value(index_no, 'url'))
-		collected = scope.dvds_page_df._get_value(index_no, 'collected')
-		watched = scope.dvds_page_df._get_value(index_no, 'watched')
-		if title == 'nan': title = 'Missing Title for this Issue'
+def render_dvd(scope, list_pos):
+	logging.trace(f"render_dvd {list_pos=}")
 
-		checkbox_collected(scope, index_no, collected)
-		checkbox_watched(scope, index_no, watched)
-		if scope.dvds_selected_missing_eps_only:
-			st.caption('Season ' + season_no)
-		
-		# Render the DVD Cover - if we have one
-		if index_no in scope.dvds_page_covers.keys():
-			dvd_cover = scope.dvds_page_covers[index_no]
-			st.image(dvd_cover, caption=title, use_container_width=True)
-		st.write(title)
-		st.caption('Story ' + story_no + ' - index ' + str(index_no))
-		st.write(url)
+	if list_pos < Dvd.page_qty:
+		dvd			= Dvd.page_dvds[list_pos]
+		dvd_cover 	= Dvd.page_covers[list_pos]
+		index_no	= dvd.index
+
+		st.caption('Season ' + str(dvd.season))
+		st.caption('Story ' + str(dvd.story) + ' - index ' + str(index_no))
+		checkbox_available(dvd, index_no)
+		checkbox_collected(dvd, index_no)
+		checkbox_watched(dvd, index_no)
+		st.image(dvd_cover, caption=dvd.title, use_container_width=True)
+		st.write(dvd.url)
 
 
 
